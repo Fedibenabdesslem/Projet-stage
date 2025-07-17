@@ -1,0 +1,17 @@
+C:\Users\LENOVO\Stage2\src\GestionProduit.Infrastructure\bin\Debug\net9.0\GestionProduit.Infrastructure.deps.json
+C:\Users\LENOVO\Stage2\src\GestionProduit.Infrastructure\bin\Debug\net9.0\GestionProduit.Infrastructure.runtimeconfig.json
+C:\Users\LENOVO\Stage2\src\GestionProduit.Infrastructure\bin\Debug\net9.0\GestionProduit.Infrastructure.dll
+C:\Users\LENOVO\Stage2\src\GestionProduit.Infrastructure\bin\Debug\net9.0\GestionProduit.Infrastructure.pdb
+C:\Users\LENOVO\Stage2\src\GestionProduit.Infrastructure\bin\Debug\net9.0\GestionProduit.Domain.dll
+C:\Users\LENOVO\Stage2\src\GestionProduit.Infrastructure\bin\Debug\net9.0\GestionProduit.Domain.pdb
+C:\Users\LENOVO\Stage2\src\GestionProduit.Infrastructure\obj\Debug\net9.0\GestionProduit.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\LENOVO\Stage2\src\GestionProduit.Infrastructure\obj\Debug\net9.0\GestionProduit.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LENOVO\Stage2\src\GestionProduit.Infrastructure\obj\Debug\net9.0\GestionProduit.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\LENOVO\Stage2\src\GestionProduit.Infrastructure\obj\Debug\net9.0\GestionProduit.Infrastructure.AssemblyInfo.cs
+C:\Users\LENOVO\Stage2\src\GestionProduit.Infrastructure\obj\Debug\net9.0\GestionProduit.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\Stage2\src\GestionProduit.Infrastructure\obj\Debug\net9.0\GestionP.91D896F0.Up2Date
+C:\Users\LENOVO\Stage2\src\GestionProduit.Infrastructure\obj\Debug\net9.0\GestionProduit.Infrastructure.dll
+C:\Users\LENOVO\Stage2\src\GestionProduit.Infrastructure\obj\Debug\net9.0\refint\GestionProduit.Infrastructure.dll
+C:\Users\LENOVO\Stage2\src\GestionProduit.Infrastructure\obj\Debug\net9.0\GestionProduit.Infrastructure.pdb
+C:\Users\LENOVO\Stage2\src\GestionProduit.Infrastructure\obj\Debug\net9.0\GestionProduit.Infrastructure.genruntimeconfig.cache
+C:\Users\LENOVO\Stage2\src\GestionProduit.Infrastructure\obj\Debug\net9.0\ref\GestionProduit.Infrastructure.dll

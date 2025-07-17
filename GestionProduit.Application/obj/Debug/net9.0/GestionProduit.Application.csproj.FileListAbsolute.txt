@@ -1,0 +1,15 @@
+C:\Users\LENOVO\Stage2\src\GestionProduit.Application\bin\Debug\net9.0\GestionProduit.Application.deps.json
+C:\Users\LENOVO\Stage2\src\GestionProduit.Application\bin\Debug\net9.0\GestionProduit.Application.dll
+C:\Users\LENOVO\Stage2\src\GestionProduit.Application\bin\Debug\net9.0\GestionProduit.Application.pdb
+C:\Users\LENOVO\Stage2\src\GestionProduit.Application\bin\Debug\net9.0\GestionProduit.Domain.dll
+C:\Users\LENOVO\Stage2\src\GestionProduit.Application\bin\Debug\net9.0\GestionProduit.Domain.pdb
+C:\Users\LENOVO\Stage2\src\GestionProduit.Application\obj\Debug\net9.0\GestionProduit.Application.csproj.AssemblyReference.cache
+C:\Users\LENOVO\Stage2\src\GestionProduit.Application\obj\Debug\net9.0\GestionProduit.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LENOVO\Stage2\src\GestionProduit.Application\obj\Debug\net9.0\GestionProduit.Application.AssemblyInfoInputs.cache
+C:\Users\LENOVO\Stage2\src\GestionProduit.Application\obj\Debug\net9.0\GestionProduit.Application.AssemblyInfo.cs
+C:\Users\LENOVO\Stage2\src\GestionProduit.Application\obj\Debug\net9.0\GestionProduit.Application.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\Stage2\src\GestionProduit.Application\obj\Debug\net9.0\GestionP.25FC0876.Up2Date
+C:\Users\LENOVO\Stage2\src\GestionProduit.Application\obj\Debug\net9.0\GestionProduit.Application.dll
+C:\Users\LENOVO\Stage2\src\GestionProduit.Application\obj\Debug\net9.0\refint\GestionProduit.Application.dll
+C:\Users\LENOVO\Stage2\src\GestionProduit.Application\obj\Debug\net9.0\GestionProduit.Application.pdb
+C:\Users\LENOVO\Stage2\src\GestionProduit.Application\obj\Debug\net9.0\ref\GestionProduit.Application.dll
