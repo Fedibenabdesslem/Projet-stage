@@ -13,3 +13,4 @@ C:\Users\LENOVO\Stage2\src\GestionProduit.Application\obj\Debug\net9.0\GestionPr
 C:\Users\LENOVO\Stage2\src\GestionProduit.Application\obj\Debug\net9.0\refint\GestionProduit.Application.dll
 C:\Users\LENOVO\Stage2\src\GestionProduit.Application\obj\Debug\net9.0\GestionProduit.Application.pdb
 C:\Users\LENOVO\Stage2\src\GestionProduit.Application\obj\Debug\net9.0\ref\GestionProduit.Application.dll
+C:\Users\LENOVO\Stage2\src\GestionProduit.Application\obj\Debug\net9.0\GestionProduit.Application.sourcelink.json

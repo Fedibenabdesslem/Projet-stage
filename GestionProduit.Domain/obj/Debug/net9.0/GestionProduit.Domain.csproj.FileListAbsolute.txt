@@ -5,6 +5,7 @@ C:\Users\LENOVO\Stage2\src\GestionProduit.Domain\obj\Debug\net9.0\GestionProduit
 C:\Users\LENOVO\Stage2\src\GestionProduit.Domain\obj\Debug\net9.0\GestionProduit.Domain.AssemblyInfoInputs.cache
 C:\Users\LENOVO\Stage2\src\GestionProduit.Domain\obj\Debug\net9.0\GestionProduit.Domain.AssemblyInfo.cs
 C:\Users\LENOVO\Stage2\src\GestionProduit.Domain\obj\Debug\net9.0\GestionProduit.Domain.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\Stage2\src\GestionProduit.Domain\obj\Debug\net9.0\GestionProduit.Domain.sourcelink.json
 C:\Users\LENOVO\Stage2\src\GestionProduit.Domain\obj\Debug\net9.0\GestionProduit.Domain.dll
 C:\Users\LENOVO\Stage2\src\GestionProduit.Domain\obj\Debug\net9.0\refint\GestionProduit.Domain.dll
 C:\Users\LENOVO\Stage2\src\GestionProduit.Domain\obj\Debug\net9.0\GestionProduit.Domain.pdb

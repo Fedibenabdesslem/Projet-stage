@@ -9,6 +9,7 @@ C:\Users\LENOVO\Stage2\src\GestionProduit.Infrastructure\obj\Debug\net9.0\Gestio
 C:\Users\LENOVO\Stage2\src\GestionProduit.Infrastructure\obj\Debug\net9.0\GestionProduit.Infrastructure.AssemblyInfoInputs.cache
 C:\Users\LENOVO\Stage2\src\GestionProduit.Infrastructure\obj\Debug\net9.0\GestionProduit.Infrastructure.AssemblyInfo.cs
 C:\Users\LENOVO\Stage2\src\GestionProduit.Infrastructure\obj\Debug\net9.0\GestionProduit.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\Stage2\src\GestionProduit.Infrastructure\obj\Debug\net9.0\GestionProduit.Infrastructure.sourcelink.json
 C:\Users\LENOVO\Stage2\src\GestionProduit.Infrastructure\obj\Debug\net9.0\GestionP.91D896F0.Up2Date
 C:\Users\LENOVO\Stage2\src\GestionProduit.Infrastructure\obj\Debug\net9.0\GestionProduit.Infrastructure.dll
 C:\Users\LENOVO\Stage2\src\GestionProduit.Infrastructure\obj\Debug\net9.0\refint\GestionProduit.Infrastructure.dll
