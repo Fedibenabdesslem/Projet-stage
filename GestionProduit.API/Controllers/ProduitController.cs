@@ -1,10 +1,12 @@
 using GestionProduit.Application.Interfaces;
 using GestionProduit.Domain.Entities;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace GestionProduit.API.Controllers;
 
 [ApiController]
+[Authorize(Roles = "admin")]
 [Route("api/[controller]")]
 public class ProduitController : ControllerBase
 {

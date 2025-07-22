@@ -6,6 +6,7 @@ using GestionProduit.Infrastructure.Repositories;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
+using Microsoft.OpenApi.Models;
 using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -14,23 +15,49 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-// Injection des dépendances pour Produits
+// Injection des dépendances
 builder.Services.AddScoped<IProduitRepository, ProduitRepository>();
 builder.Services.AddScoped<IProduitService, ProduitService>();
-
-// Injection du UserRepository et AuthService pour l'authentification
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<IAuthService, AuthService>();
 
-// Ajouter les services API + Swagger
+// Ajouter les services API
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+
+// Swagger avec support JWT
+builder.Services.AddSwaggerGen(options =>
+{
+    options.SwaggerDoc("v1", new OpenApiInfo { Title = "GestionProduit.API", Version = "v1" });
+
+    // Définir le schéma JWT Bearer
+    var jwtSecurityScheme = new OpenApiSecurityScheme
+    {
+        Scheme = "bearer",
+        BearerFormat = "JWT",
+        Name = "Authorization",
+        In = ParameterLocation.Header,
+        Type = SecuritySchemeType.Http,
+        Description = "Saisir 'Bearer {token}'",
+
+        Reference = new OpenApiReference
+        {
+            Id = JwtBearerDefaults.AuthenticationScheme,
+            Type = ReferenceType.SecurityScheme
+        }
+    };
+
+    options.AddSecurityDefinition(jwtSecurityScheme.Reference.Id, jwtSecurityScheme);
+
+    options.AddSecurityRequirement(new OpenApiSecurityRequirement
+    {
+        { jwtSecurityScheme, Array.Empty<string>() }
+    });
+});
 
 // Configuration JWT
 var keyString = builder.Configuration["Jwt:Key"] ?? throw new InvalidOperationException("JWT Key is not configured");
 var key = Encoding.UTF8.GetBytes(keyString);
-
 
 builder.Services.AddAuthentication(options =>
 {
@@ -43,19 +70,16 @@ builder.Services.AddAuthentication(options =>
     {
         ValidateIssuer = true,
         ValidIssuer = builder.Configuration["Jwt:Issuer"],
-
         ValidateAudience = true,
         ValidAudience = builder.Configuration["Jwt:Audience"],
-
         ValidateIssuerSigningKey = true,
         IssuerSigningKey = new SymmetricSecurityKey(key),
-
         ValidateLifetime = true,
         ClockSkew = TimeSpan.Zero
     };
 });
 
-// Configuration CORS
+// CORS
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowAll", policy =>
@@ -68,19 +92,18 @@ builder.Services.AddCors(options =>
 
 var app = builder.Build();
 
-// Middleware Swagger en mode développement
+// Swagger en dev
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
 }
 
-// Utiliser CORS avant tout middleware qui traite les requêtes HTTP
 app.UseCors("AllowAll");
 
 app.UseHttpsRedirection();
 
-// IMPORTANT : Authentification AVANT Autorisation
+// Auth
 app.UseAuthentication();
 app.UseAuthorization();
 
