@@ -28,6 +28,7 @@ namespace GestionProduit.API.Controllers
             return Ok(users);
         }
 
+        // PUT: api/user/{id}
         // PUT: api/user/{id}/role
         [HttpPut("{id}/role")]
         public async Task<IActionResult> UpdateUserRole(Guid id, [FromBody] string newRole)
@@ -41,6 +42,8 @@ namespace GestionProduit.API.Controllers
 
             return NoContent();
         }
+
+
 
         // DELETE: api/user/{id}
         [HttpDelete("{id}")]
