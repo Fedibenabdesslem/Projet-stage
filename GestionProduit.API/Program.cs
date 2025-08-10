@@ -30,6 +30,9 @@ builder.Services.AddSwaggerGen(options =>
 {
     options.SwaggerDoc("v1", new OpenApiInfo { Title = "GestionProduit.API", Version = "v1" });
 
+
+    options.DocInclusionPredicate((docName, apiDesc) => true);
+
     // Définir le schéma JWT Bearer
     var jwtSecurityScheme = new OpenApiSecurityScheme
     {

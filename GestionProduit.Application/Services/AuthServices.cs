@@ -22,36 +22,50 @@ namespace GestionProduit.Application.Services
             _configuration = configuration;
         }
 
-        public async Task<(bool IsSuccess, string Token, string ErrorMessage)> SignInAsync(string email, string password)
+        // -------------------- SIGN IN --------------------
+        public async Task<(bool IsSuccess, string? Token, string? ErrorMessage)> SignInAsync(string email, string password)
         {
             var user = await _userRepository.GetByEmailAsync(email);
 
             if (user == null)
             {
-                // Création automatique à la 1ère connexion avec rôle 'default'
-                user = new User
-                {
-                    Id = Guid.NewGuid(),
-                    Email = email,
-                    PasswordHash = HashPassword(password),
-                    Role = "default",
-                    CreatedAt = DateTime.UtcNow
-                };
-
-                await _userRepository.AddAsync(user);
+                return (false, null, "Utilisateur introuvable.");
             }
-            else
+
+            if (!VerifyPassword(password, user.PasswordHash))
             {
-                if (!VerifyPassword(password, user.PasswordHash))
-                {
-                    return (false, null, "Mot de passe incorrect.");
-                }
+                return (false, null, "Mot de passe incorrect.");
             }
 
             var token = GenerateJwtToken(user);
             return (true, token, null);
         }
 
+        // -------------------- SIGN UP --------------------
+        public async Task<(bool IsSuccess, string? ErrorMessage)> RegisterAsync(string username, string email, string password)
+        {
+            var existingUser = await _userRepository.GetByEmailAsync(email);
+            if (existingUser != null)
+            {
+                return (false, "Cet email est déjà utilisé.");
+            }
+
+            var newUser = new User
+            {
+                Id = Guid.NewGuid(),
+                Username = username,
+                Email = email,
+                PasswordHash = HashPassword(password),
+                Role = "default",
+                CreatedAt = DateTime.UtcNow
+            };
+
+            await _userRepository.AddAsync(newUser);
+
+            return (true, null);
+        }
+
+        // -------------------- JWT --------------------
         private string GenerateJwtToken(User user)
         {
             var claims = new[]
@@ -61,7 +75,10 @@ namespace GestionProduit.Application.Services
                 new Claim(ClaimTypes.Role, user.Role)
             };
 
-            var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["Jwt:Key"] ?? throw new InvalidOperationException("JWT Key not configured")));
+            var key = new SymmetricSecurityKey(
+                Encoding.UTF8.GetBytes(_configuration["Jwt:Key"]
+                ?? throw new InvalidOperationException("JWT Key not configured"))
+            );
             var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
 
             var token = new JwtSecurityToken(
@@ -75,11 +92,11 @@ namespace GestionProduit.Application.Services
             return new JwtSecurityTokenHandler().WriteToken(token);
         }
 
-        // Simple hash - à remplacer par BCrypt ou autre pour plus de sécurité en production
+        // -------------------- Password Helpers --------------------
         private string HashPassword(string password)
         {
             var bytes = Encoding.UTF8.GetBytes(password);
-            return Convert.ToBase64String(bytes);
+            return Convert.ToBase64String(bytes); // simple pour démo, remplace par un vrai hash (ex : BCrypt)
         }
 
         private bool VerifyPassword(string password, string storedHash)

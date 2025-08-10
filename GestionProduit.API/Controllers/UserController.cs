@@ -10,7 +10,7 @@ namespace GestionProduit.API.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
-    [Authorize(Roles = "admin")] // Seulement les admins peuvent accéder à ces endpoints
+    [Authorize(Roles = "admin")] 
     public class UserController : ControllerBase
     {
         private readonly IUserRepository _userRepository;
@@ -20,7 +20,7 @@ namespace GestionProduit.API.Controllers
             _userRepository = userRepository;
         }
 
-        // GET: api/user
+        
         [HttpGet]
         public async Task<ActionResult<List<User>>> GetAllUsers()
         {
@@ -28,8 +28,7 @@ namespace GestionProduit.API.Controllers
             return Ok(users);
         }
 
-        // PUT: api/user/{id}
-        // PUT: api/user/{id}/role
+        
         [HttpPut("{id}/role")]
         public async Task<IActionResult> UpdateUserRole(Guid id, [FromBody] string newRole)
         {
@@ -45,7 +44,7 @@ namespace GestionProduit.API.Controllers
 
 
 
-        // DELETE: api/user/{id}
+        
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteUser(Guid id)
         {
