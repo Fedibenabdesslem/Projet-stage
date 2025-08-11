@@ -1,6 +1,6 @@
 using GestionProduit.Domain.Entities;
 
-namespace GestionProduit.Application.Interfaces;
+namespace GestionProduit.Infrastructure.Interfaces;
 
 public interface IProduitService
 {

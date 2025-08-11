@@ -1,8 +1,9 @@
-using GestionProduit.Application.Interfaces;
-using GestionProduit.Application.Services;
+using GestionProduit.Infrastructure.Interfaces;
+using GestionProduit.Infrastructure.Services;
 using GestionProduit.Domain.Interfaces;
 using GestionProduit.Infrastructure.Data;
 using GestionProduit.Infrastructure.Repositories;
+
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
@@ -10,6 +11,11 @@ using Microsoft.OpenApi.Models;
 using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
+
+// Vérification simple dans la console que EmailSettings est bien chargée
+var emailSection = builder.Configuration.GetSection("EmailSettings");
+Console.WriteLine("EmailSettings section found: " + emailSection.Exists());
+Console.WriteLine("SmtpHost: " + emailSection["SmtpHost"]);
 
 // Connexion PostgreSQL
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
@@ -21,6 +27,9 @@ builder.Services.AddScoped<IProduitService, ProduitService>();
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<IAuthService, AuthService>();
 
+// Injection du service email
+builder.Services.AddTransient<IEmailService, EmailService>();
+
 // Ajouter les services API
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
@@ -30,10 +39,8 @@ builder.Services.AddSwaggerGen(options =>
 {
     options.SwaggerDoc("v1", new OpenApiInfo { Title = "GestionProduit.API", Version = "v1" });
 
-
     options.DocInclusionPredicate((docName, apiDesc) => true);
 
-    // Définir le schéma JWT Bearer
     var jwtSecurityScheme = new OpenApiSecurityScheme
     {
         Scheme = "bearer",
@@ -95,7 +102,6 @@ builder.Services.AddCors(options =>
 
 var app = builder.Build();
 
-// Swagger en dev
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
@@ -106,7 +112,6 @@ app.UseCors("AllowAll");
 
 app.UseHttpsRedirection();
 
-// Auth
 app.UseAuthentication();
 app.UseAuthorization();
 

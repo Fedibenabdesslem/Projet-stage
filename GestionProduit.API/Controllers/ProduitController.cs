@@ -1,4 +1,4 @@
-using GestionProduit.Application.Interfaces;
+using GestionProduit.Infrastructure.Interfaces;
 using GestionProduit.Domain.Entities;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;

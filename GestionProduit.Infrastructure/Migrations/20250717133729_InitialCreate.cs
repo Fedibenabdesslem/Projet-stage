@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore.Migrations;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
-
+using GestionProduit.Infrastructure.Data;
 #nullable disable
 
 namespace GestionProduit.Infrastructure.Migrations

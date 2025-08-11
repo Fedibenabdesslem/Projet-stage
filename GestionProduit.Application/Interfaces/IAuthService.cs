@@ -1,6 +1,6 @@
 using System.Threading.Tasks;
 
-namespace GestionProduit.Application.Interfaces
+namespace GestionProduit.Infrastructure.Interfaces
 {
     public interface IAuthService
     {

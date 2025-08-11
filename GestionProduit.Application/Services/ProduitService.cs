@@ -1,8 +1,8 @@
-using GestionProduit.Application.Interfaces;
+using GestionProduit.Infrastructure.Interfaces;
 using GestionProduit.Domain.Entities;
 using GestionProduit.Domain.Interfaces;
 
-namespace GestionProduit.Application.Services;
+namespace GestionProduit.Infrastructure.Services;
 
 public class ProduitService : IProduitService
 {

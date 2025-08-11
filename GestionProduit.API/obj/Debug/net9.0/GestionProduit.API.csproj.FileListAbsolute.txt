@@ -1,3 +1,11 @@
+C:\Users\LENOVO\Stage2\src\GestionProduit.API\obj\Debug\net9.0\GestionProduit.API.csproj.AssemblyReference.cache
+C:\Users\LENOVO\Stage2\src\GestionProduit.API\obj\Debug\net9.0\GestionProduit.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LENOVO\Stage2\src\GestionProduit.API\obj\Debug\net9.0\GestionProduit.API.AssemblyInfoInputs.cache
+C:\Users\LENOVO\Stage2\src\GestionProduit.API\obj\Debug\net9.0\GestionProduit.API.AssemblyInfo.cs
+C:\Users\LENOVO\Stage2\src\GestionProduit.API\obj\Debug\net9.0\GestionProduit.API.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\Stage2\src\GestionProduit.API\obj\Debug\net9.0\GestionProduit.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\LENOVO\Stage2\src\GestionProduit.API\obj\Debug\net9.0\GestionProduit.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\LENOVO\Stage2\src\GestionProduit.API\obj\Debug\net9.0\GestionProduit.API.sourcelink.json
 C:\Users\LENOVO\Stage2\src\GestionProduit.API\bin\Debug\net9.0\appsettings.Development.json
 C:\Users\LENOVO\Stage2\src\GestionProduit.API\bin\Debug\net9.0\appsettings.json
 C:\Users\LENOVO\Stage2\src\GestionProduit.API\bin\Debug\net9.0\GestionProduit.API.staticwebassets.endpoints.json
@@ -123,14 +131,6 @@ C:\Users\LENOVO\Stage2\src\GestionProduit.API\bin\Debug\net9.0\GestionProduit.In
 C:\Users\LENOVO\Stage2\src\GestionProduit.API\bin\Debug\net9.0\GestionProduit.Application.pdb
 C:\Users\LENOVO\Stage2\src\GestionProduit.API\bin\Debug\net9.0\GestionProduit.Infrastructure.pdb
 C:\Users\LENOVO\Stage2\src\GestionProduit.API\bin\Debug\net9.0\GestionProduit.Domain.pdb
-C:\Users\LENOVO\Stage2\src\GestionProduit.API\obj\Debug\net9.0\GestionProduit.API.csproj.AssemblyReference.cache
-C:\Users\LENOVO\Stage2\src\GestionProduit.API\obj\Debug\net9.0\GestionProduit.API.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\LENOVO\Stage2\src\GestionProduit.API\obj\Debug\net9.0\GestionProduit.API.AssemblyInfoInputs.cache
-C:\Users\LENOVO\Stage2\src\GestionProduit.API\obj\Debug\net9.0\GestionProduit.API.AssemblyInfo.cs
-C:\Users\LENOVO\Stage2\src\GestionProduit.API\obj\Debug\net9.0\GestionProduit.API.csproj.CoreCompileInputs.cache
-C:\Users\LENOVO\Stage2\src\GestionProduit.API\obj\Debug\net9.0\GestionProduit.API.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\LENOVO\Stage2\src\GestionProduit.API\obj\Debug\net9.0\GestionProduit.API.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\LENOVO\Stage2\src\GestionProduit.API\obj\Debug\net9.0\GestionProduit.API.sourcelink.json
 C:\Users\LENOVO\Stage2\src\GestionProduit.API\obj\Debug\net9.0\scopedcss\bundle\GestionProduit.API.styles.css
 C:\Users\LENOVO\Stage2\src\GestionProduit.API\obj\Debug\net9.0\staticwebassets.build.json
 C:\Users\LENOVO\Stage2\src\GestionProduit.API\obj\Debug\net9.0\staticwebassets.development.json

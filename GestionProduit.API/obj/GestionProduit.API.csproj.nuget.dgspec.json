@@ -282,6 +282,9 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
+              "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.Application\\GestionProduit.Application.csproj": {
+                "projectPath": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.Application\\GestionProduit.Application.csproj"
+              },
               "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.Domain\\GestionProduit.Domain.csproj": {
                 "projectPath": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.Domain\\GestionProduit.Domain.csproj"
               }

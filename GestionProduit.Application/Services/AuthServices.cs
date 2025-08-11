@@ -1,4 +1,4 @@
-using GestionProduit.Application.Interfaces;
+using GestionProduit.Infrastructure.Interfaces;
 using GestionProduit.Domain.Entities;
 using GestionProduit.Domain.Interfaces;
 using Microsoft.Extensions.Configuration;
@@ -9,17 +9,19 @@ using System.Security.Claims;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GestionProduit.Application.Services
+namespace GestionProduit.Infrastructure.Services
 {
     public class AuthService : IAuthService
     {
         private readonly IUserRepository _userRepository;
         private readonly IConfiguration _configuration;
+        private readonly IEmailService _emailService; // Ajout de l'email service
 
-        public AuthService(IUserRepository userRepository, IConfiguration configuration)
+        public AuthService(IUserRepository userRepository, IConfiguration configuration, IEmailService emailService)
         {
             _userRepository = userRepository;
             _configuration = configuration;
+            _emailService = emailService;
         }
 
         // -------------------- SIGN IN --------------------
@@ -61,6 +63,15 @@ namespace GestionProduit.Application.Services
             };
 
             await _userRepository.AddAsync(newUser);
+
+            // Envoi d'email à l'admin
+            var adminEmail = _configuration["EmailSettings:AdminEmail"];
+            if (!string.IsNullOrEmpty(adminEmail))
+            {
+                var subject = "Nouvel utilisateur inscrit";
+                var body = $"Un nouvel utilisateur s'est inscrit avec l'email : {email} et le nom d'utilisateur : {username}.";
+                await _emailService.SendEmailAsync(adminEmail, subject, body);
+            }
 
             return (true, null);
         }

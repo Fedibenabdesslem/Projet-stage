@@ -1,4 +1,4 @@
-namespace GestionProduit.Application.DTOs
+namespace GestionProduit.Infrastructure.DTOs
 {
     public class RegisterDto
     {

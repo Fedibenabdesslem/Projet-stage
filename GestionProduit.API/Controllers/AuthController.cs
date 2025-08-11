@@ -1,7 +1,7 @@
 
-using GestionProduit.Application.Interfaces;
+using GestionProduit.Infrastructure.Interfaces;
 using Microsoft.AspNetCore.Mvc;
-using GestionProduit.Application.DTOs;
+using GestionProduit.Infrastructure.DTOs;
 
 using System;
 using System.Threading.Tasks;

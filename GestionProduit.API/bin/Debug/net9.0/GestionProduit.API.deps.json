@@ -782,6 +782,7 @@
       },
       "GestionProduit.Infrastructure/1.0.0": {
         "dependencies": {
+          "GestionProduit.Application": "1.0.0",
           "GestionProduit.Domain": "1.0.0",
           "Microsoft.EntityFrameworkCore": "9.0.7",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "9.0.4"

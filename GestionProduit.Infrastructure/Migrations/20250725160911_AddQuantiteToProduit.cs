@@ -1,5 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore.Migrations;
-
+using GestionProduit.Infrastructure.Data;
 #nullable disable
 
 namespace GestionProduit.Infrastructure.Migrations
