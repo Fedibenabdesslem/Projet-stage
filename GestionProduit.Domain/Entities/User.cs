@@ -8,6 +8,6 @@ namespace GestionProduit.Domain.Entities
         public string Role { get; set; } = "default";
         public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
         public string Username { get; set; } = string.Empty;
-
+        public DateTime? LastLoginAt { get; set; } 
     }
 }

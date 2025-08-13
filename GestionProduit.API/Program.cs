@@ -3,6 +3,9 @@ using GestionProduit.Infrastructure.Services;
 using GestionProduit.Domain.Interfaces;
 using GestionProduit.Infrastructure.Data;
 using GestionProduit.Infrastructure.Repositories;
+using GestionProduit.Application.Interfaces;
+using GestionProduit.Application.Services;
+
 
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;

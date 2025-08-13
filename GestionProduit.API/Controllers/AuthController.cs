@@ -1,7 +1,7 @@
-
+using GestionProduit.Application.DTOs;
+using GestionProduit.Application.Interfaces;
 using GestionProduit.Infrastructure.Interfaces;
 using Microsoft.AspNetCore.Mvc;
-using GestionProduit.Infrastructure.DTOs;
 
 using System;
 using System.Threading.Tasks;
@@ -13,12 +13,16 @@ namespace GestionProduit.API.Controllers
     public class AuthController : ControllerBase
     {
         private readonly IAuthService _authService;
+        private readonly IEmailService _emailService;
 
-        public AuthController(IAuthService authService)
+        // Adresse email de l'admin (à mettre en config plus tard)
+        private const string AdminEmail = "admin@example.com";
+
+        public AuthController(IAuthService authService, IEmailService emailService)
         {
             _authService = authService;
+            _emailService = emailService;
         }
-
 
         [HttpPost("signin")]
         public async Task<IActionResult> SignIn([FromBody] SignInRequestDto dto)
@@ -30,6 +34,20 @@ namespace GestionProduit.API.Controllers
                 if (!result.IsSuccess)
                 {
                     return Unauthorized(new { Message = result.ErrorMessage });
+                }
+
+                // Vérifier si c'est la première connexion de l'utilisateur
+                if (result.IsFirstLogin && result.Role == "default")
+                {
+                    // Envoyer un email à l'admin
+                    await _emailService.SendEmailAsync(
+                        AdminEmail,
+                        "Nouvel utilisateur en attente de rôle",
+                        $"Un nouvel utilisateur vient de se connecter pour la première fois :\n" +
+                        $"- Email : {dto.Email}\n" +
+                        $"- Date : {DateTime.Now}\n\n" +
+                        $"Veuillez lui attribuer un rôle."
+                    );
                 }
 
                 return Ok(new { Token = result.Token });
@@ -59,8 +77,5 @@ namespace GestionProduit.API.Controllers
                 return StatusCode(500, new { Message = "Erreur serveur", Detail = ex.Message });
             }
         }
-
-
     }
-
 }
