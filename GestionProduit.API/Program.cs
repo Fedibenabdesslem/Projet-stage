@@ -6,7 +6,6 @@ using GestionProduit.Infrastructure.Repositories;
 using GestionProduit.Application.Interfaces;
 using GestionProduit.Application.Services;
 
-
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
@@ -104,6 +103,9 @@ builder.Services.AddCors(options =>
 });
 
 var app = builder.Build();
+
+// Servir les fichiers statiques (wwwroot)
+app.UseStaticFiles();
 
 if (app.Environment.IsDevelopment())
 {

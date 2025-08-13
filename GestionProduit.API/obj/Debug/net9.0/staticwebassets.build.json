@@ -1,12 +1,125 @@
 {
   "Version": 1,
-  "Hash": "uAiNuQQ2OiH2zIJRPqtOuKa9lIW2JgEIXY0FBbQe18g=",
+  "Hash": "jfOAemGkuiDBzsjy2QPzFqpi3hOyR7t6r4Pla+oTkMU=",
   "Source": "GestionProduit.API",
   "BasePath": "_content/GestionProduit.API",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": [],
-  "Endpoints": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "GestionProduit.API\\wwwroot",
+      "Source": "GestionProduit.API",
+      "ContentRoot": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.API\\wwwroot\\",
+      "BasePath": "_content/GestionProduit.API",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.API\\wwwroot\\images\\1fbca4af-91dc-4ce0-b0ad-3cf5c9aa45a2_img3.jpg",
+      "SourceId": "GestionProduit.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.API\\wwwroot\\",
+      "BasePath": "_content/GestionProduit.API",
+      "RelativePath": "images/1fbca4af-91dc-4ce0-b0ad-3cf5c9aa45a2_img3#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "6dtok3bnkj",
+      "Integrity": "qprvmW7dK2Nf54Jse9Q27NN3rtwxJqJ4MhJbOydZWjg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\1fbca4af-91dc-4ce0-b0ad-3cf5c9aa45a2_img3.jpg"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "images/1fbca4af-91dc-4ce0-b0ad-3cf5c9aa45a2_img3.6dtok3bnkj.jpg",
+      "AssetFile": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.API\\wwwroot\\images\\1fbca4af-91dc-4ce0-b0ad-3cf5c9aa45a2_img3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4516387"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qprvmW7dK2Nf54Jse9Q27NN3rtwxJqJ4MhJbOydZWjg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 13 Aug 2025 16:19:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6dtok3bnkj"
+        },
+        {
+          "Name": "label",
+          "Value": "images/1fbca4af-91dc-4ce0-b0ad-3cf5c9aa45a2_img3.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-qprvmW7dK2Nf54Jse9Q27NN3rtwxJqJ4MhJbOydZWjg="
+        }
+      ]
+    },
+    {
+      "Route": "images/1fbca4af-91dc-4ce0-b0ad-3cf5c9aa45a2_img3.jpg",
+      "AssetFile": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.API\\wwwroot\\images\\1fbca4af-91dc-4ce0-b0ad-3cf5c9aa45a2_img3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4516387"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qprvmW7dK2Nf54Jse9Q27NN3rtwxJqJ4MhJbOydZWjg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 13 Aug 2025 16:19:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-qprvmW7dK2Nf54Jse9Q27NN3rtwxJqJ4MhJbOydZWjg="
+        }
+      ]
+    }
+  ]
 }

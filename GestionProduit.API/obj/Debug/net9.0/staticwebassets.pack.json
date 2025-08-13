@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.API\\wwwroot\\images\\1fbca4af-91dc-4ce0-b0ad-3cf5c9aa45a2_img3.jpg",
+      "PackagePath": "staticwebassets\\images\\1fbca4af-91dc-4ce0-b0ad-3cf5c9aa45a2_img3.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.GestionProduit.API.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.GestionProduit.API.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.GestionProduit.API.props",
+      "PackagePath": "build\\GestionProduit.API.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.GestionProduit.API.props",
+      "PackagePath": "buildMultiTargeting\\GestionProduit.API.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.GestionProduit.API.props",
+      "PackagePath": "buildTransitive\\GestionProduit.API.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -147,3 +147,4 @@ C:\Users\LENOVO\Stage2\src\GestionProduit.API\obj\Debug\net9.0\refint\GestionPro
 C:\Users\LENOVO\Stage2\src\GestionProduit.API\obj\Debug\net9.0\GestionProduit.API.pdb
 C:\Users\LENOVO\Stage2\src\GestionProduit.API\obj\Debug\net9.0\GestionProduit.API.genruntimeconfig.cache
 C:\Users\LENOVO\Stage2\src\GestionProduit.API\obj\Debug\net9.0\ref\GestionProduit.API.dll
+C:\Users\LENOVO\Stage2\src\GestionProduit.API\bin\Debug\net9.0\GestionProduit.API.staticwebassets.runtime.json
