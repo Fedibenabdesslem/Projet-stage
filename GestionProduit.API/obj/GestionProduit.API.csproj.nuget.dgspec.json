@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.API\\GestionProduit.API.csproj": {}
+    "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.APi\\GestionProduit.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.API\\GestionProduit.API.csproj": {
+    "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.APi\\GestionProduit.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.API\\GestionProduit.API.csproj",
+        "projectUniqueName": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.APi\\GestionProduit.API.csproj",
         "projectName": "GestionProduit.API",
-        "projectPath": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.API\\GestionProduit.API.csproj",
+        "projectPath": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.APi\\GestionProduit.API.csproj",
         "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.API\\obj\\",
+        "outputPath": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.APi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

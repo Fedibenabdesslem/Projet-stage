@@ -12,4 +12,9 @@ public class ApplicationDbContext : DbContext
 
     public DbSet<User> Users => Set<User>();
 
+    public DbSet<PanierItem> PanierItems => Set<PanierItem>();
+
+
+
+
 }

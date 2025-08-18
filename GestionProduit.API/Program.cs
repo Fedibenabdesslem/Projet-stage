@@ -29,6 +29,9 @@ builder.Services.AddScoped<IProduitService, ProduitService>();
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<IAuthService, AuthService>();
 
+// Injection du service Panier
+builder.Services.AddScoped<IPanierService, PanierService>();
+
 // Injection du service email
 builder.Services.AddTransient<IEmailService, EmailService>();
 

@@ -22,6 +22,32 @@ namespace GestionProduit.Infrastructure.Migrations
 
             NpgsqlModelBuilderExtensions.UseIdentityByDefaultColumns(modelBuilder);
 
+            modelBuilder.Entity("GestionProduit.Domain.Entities.PanierItem", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("ProduitId")
+                        .HasColumnType("integer");
+
+                    b.Property<int>("Quantite")
+                        .HasColumnType("integer");
+
+                    b.Property<Guid>("UserId")
+                        .HasColumnType("uuid");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ProduitId");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("PanierItems");
+                });
+
             modelBuilder.Entity("GestionProduit.Domain.Entities.Produit", b =>
                 {
                     b.Property<int>("Id")
@@ -84,6 +110,25 @@ namespace GestionProduit.Infrastructure.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Users");
+                });
+
+            modelBuilder.Entity("GestionProduit.Domain.Entities.PanierItem", b =>
+                {
+                    b.HasOne("GestionProduit.Domain.Entities.Produit", "Produit")
+                        .WithMany()
+                        .HasForeignKey("ProduitId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("GestionProduit.Domain.Entities.User", "User")
+                        .WithMany()
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Produit");
+
+                    b.Navigation("User");
                 });
 #pragma warning restore 612, 618
         }
