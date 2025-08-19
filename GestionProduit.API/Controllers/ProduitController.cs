@@ -60,13 +60,18 @@ public class ProduitController : ControllerBase
     }
 
     // PUT: api/produit/{id}
+    // PUT: api/produit/{id}
     [HttpPut("{id}")]
     public async Task<ActionResult> Update(int id, [FromForm] Produit produit)
     {
         if (id != produit.Id)
             return BadRequest();
 
-        // Gestion de l'image si elle est uploadée
+        var existingProduit = await _produitService.GetProduitByIdAsync(id);
+        if (existingProduit == null)
+            return NotFound();
+
+        
         var file = Request.Form.Files.FirstOrDefault();
         if (file != null && file.Length > 0)
         {
@@ -80,10 +85,16 @@ public class ProduitController : ControllerBase
 
             produit.ImageUrl = $"/images/{fileName}";
         }
+        else
+        {
+            // Conserver l’ancienne image si aucune nouvelle n’est fournie
+            produit.ImageUrl = existingProduit.ImageUrl;
+        }
 
         await _produitService.ModifierProduitAsync(produit);
         return NoContent();
     }
+
 
     // DELETE: api/produit/{id}
     [HttpDelete("{id}")]

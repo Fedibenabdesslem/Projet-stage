@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "5SLk5okdvMCGLsBzAcRKunZaMWzA8fZw5Y8+C4NL3cI=",
+  "Hash": "7EveQ+8QGRXBuABeMr376ddiKGM1ePBtolYM/XqtRtQ=",
   "Source": "GestionProduit.API",
   "BasePath": "_content/GestionProduit.API",
   "Mode": "Default",
@@ -17,7 +17,7 @@
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.APi\\wwwroot\\images\\000891b9-9ebf-4101-b83b-b45cb4915596_Fast286-removebg-preview.png",
+      "Identity": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.API\\wwwroot\\images\\000891b9-9ebf-4101-b83b-b45cb4915596_Fast286-removebg-preview.png",
       "SourceId": "GestionProduit.API",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.API\\wwwroot\\",
@@ -38,7 +38,7 @@
       "OriginalItemSpec": "wwwroot\\images\\000891b9-9ebf-4101-b83b-b45cb4915596_Fast286-removebg-preview.png"
     },
     {
-      "Identity": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.APi\\wwwroot\\images\\037fa298-02b8-49f5-a93b-8a523b7fc7c2___57-removebg-preview.png",
+      "Identity": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.API\\wwwroot\\images\\037fa298-02b8-49f5-a93b-8a523b7fc7c2___57-removebg-preview.png",
       "SourceId": "GestionProduit.API",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.API\\wwwroot\\",
@@ -59,7 +59,7 @@
       "OriginalItemSpec": "wwwroot\\images\\037fa298-02b8-49f5-a93b-8a523b7fc7c2___57-removebg-preview.png"
     },
     {
-      "Identity": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.APi\\wwwroot\\images\\1fbca4af-91dc-4ce0-b0ad-3cf5c9aa45a2_img3.jpg",
+      "Identity": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.API\\wwwroot\\images\\1fbca4af-91dc-4ce0-b0ad-3cf5c9aa45a2_img3.jpg",
       "SourceId": "GestionProduit.API",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.API\\wwwroot\\",
@@ -80,7 +80,7 @@
       "OriginalItemSpec": "wwwroot\\images\\1fbca4af-91dc-4ce0-b0ad-3cf5c9aa45a2_img3.jpg"
     },
     {
-      "Identity": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.APi\\wwwroot\\images\\22ff9d3a-2bfd-4c15-b5d3-664e7cf350fe_img2.jpg",
+      "Identity": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.API\\wwwroot\\images\\22ff9d3a-2bfd-4c15-b5d3-664e7cf350fe_img2.jpg",
       "SourceId": "GestionProduit.API",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.API\\wwwroot\\",
@@ -101,7 +101,7 @@
       "OriginalItemSpec": "wwwroot\\images\\22ff9d3a-2bfd-4c15-b5d3-664e7cf350fe_img2.jpg"
     },
     {
-      "Identity": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.APi\\wwwroot\\images\\2b29b53b-d969-4cd0-9337-1ff2bf006faf___57-removebg-preview.png",
+      "Identity": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.API\\wwwroot\\images\\2b29b53b-d969-4cd0-9337-1ff2bf006faf___57-removebg-preview.png",
       "SourceId": "GestionProduit.API",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.API\\wwwroot\\",
@@ -122,7 +122,7 @@
       "OriginalItemSpec": "wwwroot\\images\\2b29b53b-d969-4cd0-9337-1ff2bf006faf___57-removebg-preview.png"
     },
     {
-      "Identity": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.APi\\wwwroot\\images\\363448ec-6823-42fd-a03e-54cbc704b3a5_austin-distel-DfjJMVhwH_8-unsplash.jpg",
+      "Identity": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.API\\wwwroot\\images\\363448ec-6823-42fd-a03e-54cbc704b3a5_austin-distel-DfjJMVhwH_8-unsplash.jpg",
       "SourceId": "GestionProduit.API",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.API\\wwwroot\\",
@@ -143,7 +143,7 @@
       "OriginalItemSpec": "wwwroot\\images\\363448ec-6823-42fd-a03e-54cbc704b3a5_austin-distel-DfjJMVhwH_8-unsplash.jpg"
     },
     {
-      "Identity": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.APi\\wwwroot\\images\\3683ed4f-4b7b-445f-bfee-94afc460c571_img4.jpg",
+      "Identity": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.API\\wwwroot\\images\\3683ed4f-4b7b-445f-bfee-94afc460c571_img4.jpg",
       "SourceId": "GestionProduit.API",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.API\\wwwroot\\",
@@ -164,7 +164,7 @@
       "OriginalItemSpec": "wwwroot\\images\\3683ed4f-4b7b-445f-bfee-94afc460c571_img4.jpg"
     },
     {
-      "Identity": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.APi\\wwwroot\\images\\430a3a4a-ce9b-42ae-89e8-b532faf0868d_VSB_Sagemcom_1.png",
+      "Identity": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.API\\wwwroot\\images\\430a3a4a-ce9b-42ae-89e8-b532faf0868d_VSB_Sagemcom_1.png",
       "SourceId": "GestionProduit.API",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.API\\wwwroot\\",
@@ -185,7 +185,7 @@
       "OriginalItemSpec": "wwwroot\\images\\430a3a4a-ce9b-42ae-89e8-b532faf0868d_VSB_Sagemcom_1.png"
     },
     {
-      "Identity": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.APi\\wwwroot\\images\\49a65e11-2630-44b6-817d-de364953cf1a_téléchargé.jpg",
+      "Identity": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.API\\wwwroot\\images\\49a65e11-2630-44b6-817d-de364953cf1a_téléchargé.jpg",
       "SourceId": "GestionProduit.API",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.API\\wwwroot\\",
@@ -206,7 +206,7 @@
       "OriginalItemSpec": "wwwroot\\images\\49a65e11-2630-44b6-817d-de364953cf1a_téléchargé.jpg"
     },
     {
-      "Identity": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.APi\\wwwroot\\images\\5a734415-2b1f-4947-ae2f-e45941ad87da_VSB_SAGEMCOM_20240828.1476.png",
+      "Identity": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.API\\wwwroot\\images\\5a734415-2b1f-4947-ae2f-e45941ad87da_VSB_SAGEMCOM_20240828.1476.png",
       "SourceId": "GestionProduit.API",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.API\\wwwroot\\",
@@ -227,7 +227,7 @@
       "OriginalItemSpec": "wwwroot\\images\\5a734415-2b1f-4947-ae2f-e45941ad87da_VSB_SAGEMCOM_20240828.1476.png"
     },
     {
-      "Identity": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.APi\\wwwroot\\images\\66467019-baac-4b52-82aa-a23f3ebdd9ae_$_57.png",
+      "Identity": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.API\\wwwroot\\images\\66467019-baac-4b52-82aa-a23f3ebdd9ae_$_57.png",
       "SourceId": "GestionProduit.API",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.API\\wwwroot\\",
@@ -248,7 +248,7 @@
       "OriginalItemSpec": "wwwroot\\images\\66467019-baac-4b52-82aa-a23f3ebdd9ae_$_57.png"
     },
     {
-      "Identity": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.APi\\wwwroot\\images\\746f24fe-293f-4cd1-af0f-273bb8dc33ab_Vodafone_TV_DTIW384_UHD-removebg-preview.png",
+      "Identity": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.API\\wwwroot\\images\\746f24fe-293f-4cd1-af0f-273bb8dc33ab_Vodafone_TV_DTIW384_UHD-removebg-preview.png",
       "SourceId": "GestionProduit.API",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.API\\wwwroot\\",
@@ -269,7 +269,7 @@
       "OriginalItemSpec": "wwwroot\\images\\746f24fe-293f-4cd1-af0f-273bb8dc33ab_Vodafone_TV_DTIW384_UHD-removebg-preview.png"
     },
     {
-      "Identity": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.APi\\wwwroot\\images\\76d081b4-388f-4239-ba39-5a6314e54245_6280425-f-ab847ced-1172-4d18-9336-63125ce0aa30-removebg-preview.png",
+      "Identity": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.API\\wwwroot\\images\\76d081b4-388f-4239-ba39-5a6314e54245_6280425-f-ab847ced-1172-4d18-9336-63125ce0aa30-removebg-preview.png",
       "SourceId": "GestionProduit.API",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.API\\wwwroot\\",
@@ -290,7 +290,7 @@
       "OriginalItemSpec": "wwwroot\\images\\76d081b4-388f-4239-ba39-5a6314e54245_6280425-f-ab847ced-1172-4d18-9336-63125ce0aa30-removebg-preview.png"
     },
     {
-      "Identity": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.APi\\wwwroot\\images\\7dc4d16e-94f1-491b-8674-088930c282bd_pc gamer.jpg",
+      "Identity": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.API\\wwwroot\\images\\7dc4d16e-94f1-491b-8674-088930c282bd_pc gamer.jpg",
       "SourceId": "GestionProduit.API",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.API\\wwwroot\\",
@@ -311,7 +311,7 @@
       "OriginalItemSpec": "wwwroot\\images\\7dc4d16e-94f1-491b-8674-088930c282bd_pc gamer.jpg"
     },
     {
-      "Identity": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.APi\\wwwroot\\images\\9367bfc8-2570-4579-8f49-63dd72e51489_téléchargé-removebg-preview.png",
+      "Identity": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.API\\wwwroot\\images\\9367bfc8-2570-4579-8f49-63dd72e51489_téléchargé-removebg-preview.png",
       "SourceId": "GestionProduit.API",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.API\\wwwroot\\",
@@ -332,7 +332,7 @@
       "OriginalItemSpec": "wwwroot\\images\\9367bfc8-2570-4579-8f49-63dd72e51489_téléchargé-removebg-preview.png"
     },
     {
-      "Identity": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.APi\\wwwroot\\images\\a97a44ac-9b88-46a1-832f-09f70d54034e_logo.png",
+      "Identity": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.API\\wwwroot\\images\\a97a44ac-9b88-46a1-832f-09f70d54034e_logo.png",
       "SourceId": "GestionProduit.API",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.API\\wwwroot\\",
@@ -353,7 +353,7 @@
       "OriginalItemSpec": "wwwroot\\images\\a97a44ac-9b88-46a1-832f-09f70d54034e_logo.png"
     },
     {
-      "Identity": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.APi\\wwwroot\\images\\aaeb1360-cce8-404b-a9dd-e81413727194_img3.jpg",
+      "Identity": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.API\\wwwroot\\images\\aaeb1360-cce8-404b-a9dd-e81413727194_img3.jpg",
       "SourceId": "GestionProduit.API",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.API\\wwwroot\\",
@@ -374,7 +374,7 @@
       "OriginalItemSpec": "wwwroot\\images\\aaeb1360-cce8-404b-a9dd-e81413727194_img3.jpg"
     },
     {
-      "Identity": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.APi\\wwwroot\\images\\b705e458-a4b6-4f26-a408-a373bbf4b4f7_téléchargé__1_-removebg-preview.png",
+      "Identity": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.API\\wwwroot\\images\\b705e458-a4b6-4f26-a408-a373bbf4b4f7_téléchargé__1_-removebg-preview.png",
       "SourceId": "GestionProduit.API",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.API\\wwwroot\\",
@@ -395,7 +395,7 @@
       "OriginalItemSpec": "wwwroot\\images\\b705e458-a4b6-4f26-a408-a373bbf4b4f7_téléchargé__1_-removebg-preview.png"
     },
     {
-      "Identity": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.APi\\wwwroot\\images\\b8eb4bd7-ef50-44b9-925a-dd6ad0880513_img5.jpg",
+      "Identity": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.API\\wwwroot\\images\\b8eb4bd7-ef50-44b9-925a-dd6ad0880513_img5.jpg",
       "SourceId": "GestionProduit.API",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.API\\wwwroot\\",
@@ -416,7 +416,7 @@
       "OriginalItemSpec": "wwwroot\\images\\b8eb4bd7-ef50-44b9-925a-dd6ad0880513_img5.jpg"
     },
     {
-      "Identity": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.APi\\wwwroot\\images\\bf26494c-6d13-4fd1-939b-26100e67856f_LOGO_SAGEMCOM.png",
+      "Identity": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.API\\wwwroot\\images\\bf26494c-6d13-4fd1-939b-26100e67856f_LOGO_SAGEMCOM.png",
       "SourceId": "GestionProduit.API",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.API\\wwwroot\\",
@@ -437,7 +437,7 @@
       "OriginalItemSpec": "wwwroot\\images\\bf26494c-6d13-4fd1-939b-26100e67856f_LOGO_SAGEMCOM.png"
     },
     {
-      "Identity": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.APi\\wwwroot\\images\\c51c1b83-a2df-49c1-b379-fb66cc08d2ee_6280425-f-ab847ced-1172-4d18-9336-63125ce0aa30.png",
+      "Identity": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.API\\wwwroot\\images\\c51c1b83-a2df-49c1-b379-fb66cc08d2ee_6280425-f-ab847ced-1172-4d18-9336-63125ce0aa30.png",
       "SourceId": "GestionProduit.API",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.API\\wwwroot\\",
@@ -458,7 +458,7 @@
       "OriginalItemSpec": "wwwroot\\images\\c51c1b83-a2df-49c1-b379-fb66cc08d2ee_6280425-f-ab847ced-1172-4d18-9336-63125ce0aa30.png"
     },
     {
-      "Identity": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.APi\\wwwroot\\images\\cabc07f9-7f02-4c56-988e-83ea5bf07621_pc gamer.jpg",
+      "Identity": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.API\\wwwroot\\images\\cabc07f9-7f02-4c56-988e-83ea5bf07621_pc gamer.jpg",
       "SourceId": "GestionProduit.API",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.API\\wwwroot\\",
@@ -479,7 +479,7 @@
       "OriginalItemSpec": "wwwroot\\images\\cabc07f9-7f02-4c56-988e-83ea5bf07621_pc gamer.jpg"
     },
     {
-      "Identity": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.APi\\wwwroot\\images\\ce0af102-a168-4285-accf-f4911d190abc_logo.png",
+      "Identity": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.API\\wwwroot\\images\\ce0af102-a168-4285-accf-f4911d190abc_logo.png",
       "SourceId": "GestionProduit.API",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.API\\wwwroot\\",
@@ -500,7 +500,7 @@
       "OriginalItemSpec": "wwwroot\\images\\ce0af102-a168-4285-accf-f4911d190abc_logo.png"
     },
     {
-      "Identity": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.APi\\wwwroot\\images\\e4b4f483-d5a4-49ad-9c27-a678db85e0c9_pc gamer.jpg",
+      "Identity": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.API\\wwwroot\\images\\e4b4f483-d5a4-49ad-9c27-a678db85e0c9_pc gamer.jpg",
       "SourceId": "GestionProduit.API",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.API\\wwwroot\\",
@@ -521,7 +521,7 @@
       "OriginalItemSpec": "wwwroot\\images\\e4b4f483-d5a4-49ad-9c27-a678db85e0c9_pc gamer.jpg"
     },
     {
-      "Identity": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.APi\\wwwroot\\images\\eb8463c0-af15-44af-ae3c-0934d1b0be10_img5.jpg",
+      "Identity": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.API\\wwwroot\\images\\eb8463c0-af15-44af-ae3c-0934d1b0be10_img5.jpg",
       "SourceId": "GestionProduit.API",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.API\\wwwroot\\",
@@ -542,7 +542,7 @@
       "OriginalItemSpec": "wwwroot\\images\\eb8463c0-af15-44af-ae3c-0934d1b0be10_img5.jpg"
     },
     {
-      "Identity": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.APi\\wwwroot\\images\\f50f28c9-5a00-48f2-a713-4f567ab3deaa_pexels-tima-miroshnichenko-6169641.jpg",
+      "Identity": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.API\\wwwroot\\images\\f50f28c9-5a00-48f2-a713-4f567ab3deaa_pexels-tima-miroshnichenko-6169641.jpg",
       "SourceId": "GestionProduit.API",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.API\\wwwroot\\",
@@ -566,7 +566,7 @@
   "Endpoints": [
     {
       "Route": "images/000891b9-9ebf-4101-b83b-b45cb4915596_Fast286-removebg-preview.g2rvaiu3mh.png",
-      "AssetFile": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.APi\\wwwroot\\images\\000891b9-9ebf-4101-b83b-b45cb4915596_Fast286-removebg-preview.png",
+      "AssetFile": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.API\\wwwroot\\images\\000891b9-9ebf-4101-b83b-b45cb4915596_Fast286-removebg-preview.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -611,7 +611,7 @@
     },
     {
       "Route": "images/000891b9-9ebf-4101-b83b-b45cb4915596_Fast286-removebg-preview.png",
-      "AssetFile": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.APi\\wwwroot\\images\\000891b9-9ebf-4101-b83b-b45cb4915596_Fast286-removebg-preview.png",
+      "AssetFile": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.API\\wwwroot\\images\\000891b9-9ebf-4101-b83b-b45cb4915596_Fast286-removebg-preview.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -648,7 +648,7 @@
     },
     {
       "Route": "images/037fa298-02b8-49f5-a93b-8a523b7fc7c2___57-removebg-preview.audyc5d4jj.png",
-      "AssetFile": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.APi\\wwwroot\\images\\037fa298-02b8-49f5-a93b-8a523b7fc7c2___57-removebg-preview.png",
+      "AssetFile": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.API\\wwwroot\\images\\037fa298-02b8-49f5-a93b-8a523b7fc7c2___57-removebg-preview.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -693,7 +693,7 @@
     },
     {
       "Route": "images/037fa298-02b8-49f5-a93b-8a523b7fc7c2___57-removebg-preview.png",
-      "AssetFile": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.APi\\wwwroot\\images\\037fa298-02b8-49f5-a93b-8a523b7fc7c2___57-removebg-preview.png",
+      "AssetFile": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.API\\wwwroot\\images\\037fa298-02b8-49f5-a93b-8a523b7fc7c2___57-removebg-preview.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -730,7 +730,7 @@
     },
     {
       "Route": "images/1fbca4af-91dc-4ce0-b0ad-3cf5c9aa45a2_img3.6dtok3bnkj.jpg",
-      "AssetFile": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.APi\\wwwroot\\images\\1fbca4af-91dc-4ce0-b0ad-3cf5c9aa45a2_img3.jpg",
+      "AssetFile": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.API\\wwwroot\\images\\1fbca4af-91dc-4ce0-b0ad-3cf5c9aa45a2_img3.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -775,7 +775,7 @@
     },
     {
       "Route": "images/1fbca4af-91dc-4ce0-b0ad-3cf5c9aa45a2_img3.jpg",
-      "AssetFile": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.APi\\wwwroot\\images\\1fbca4af-91dc-4ce0-b0ad-3cf5c9aa45a2_img3.jpg",
+      "AssetFile": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.API\\wwwroot\\images\\1fbca4af-91dc-4ce0-b0ad-3cf5c9aa45a2_img3.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -812,7 +812,7 @@
     },
     {
       "Route": "images/22ff9d3a-2bfd-4c15-b5d3-664e7cf350fe_img2.9qzzswhj8e.jpg",
-      "AssetFile": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.APi\\wwwroot\\images\\22ff9d3a-2bfd-4c15-b5d3-664e7cf350fe_img2.jpg",
+      "AssetFile": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.API\\wwwroot\\images\\22ff9d3a-2bfd-4c15-b5d3-664e7cf350fe_img2.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -857,7 +857,7 @@
     },
     {
       "Route": "images/22ff9d3a-2bfd-4c15-b5d3-664e7cf350fe_img2.jpg",
-      "AssetFile": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.APi\\wwwroot\\images\\22ff9d3a-2bfd-4c15-b5d3-664e7cf350fe_img2.jpg",
+      "AssetFile": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.API\\wwwroot\\images\\22ff9d3a-2bfd-4c15-b5d3-664e7cf350fe_img2.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -894,7 +894,7 @@
     },
     {
       "Route": "images/2b29b53b-d969-4cd0-9337-1ff2bf006faf___57-removebg-preview.audyc5d4jj.png",
-      "AssetFile": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.APi\\wwwroot\\images\\2b29b53b-d969-4cd0-9337-1ff2bf006faf___57-removebg-preview.png",
+      "AssetFile": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.API\\wwwroot\\images\\2b29b53b-d969-4cd0-9337-1ff2bf006faf___57-removebg-preview.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -939,7 +939,7 @@
     },
     {
       "Route": "images/2b29b53b-d969-4cd0-9337-1ff2bf006faf___57-removebg-preview.png",
-      "AssetFile": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.APi\\wwwroot\\images\\2b29b53b-d969-4cd0-9337-1ff2bf006faf___57-removebg-preview.png",
+      "AssetFile": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.API\\wwwroot\\images\\2b29b53b-d969-4cd0-9337-1ff2bf006faf___57-removebg-preview.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -976,7 +976,7 @@
     },
     {
       "Route": "images/363448ec-6823-42fd-a03e-54cbc704b3a5_austin-distel-DfjJMVhwH_8-unsplash.ddpfgjz4gn.jpg",
-      "AssetFile": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.APi\\wwwroot\\images\\363448ec-6823-42fd-a03e-54cbc704b3a5_austin-distel-DfjJMVhwH_8-unsplash.jpg",
+      "AssetFile": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.API\\wwwroot\\images\\363448ec-6823-42fd-a03e-54cbc704b3a5_austin-distel-DfjJMVhwH_8-unsplash.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1021,7 +1021,7 @@
     },
     {
       "Route": "images/363448ec-6823-42fd-a03e-54cbc704b3a5_austin-distel-DfjJMVhwH_8-unsplash.jpg",
-      "AssetFile": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.APi\\wwwroot\\images\\363448ec-6823-42fd-a03e-54cbc704b3a5_austin-distel-DfjJMVhwH_8-unsplash.jpg",
+      "AssetFile": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.API\\wwwroot\\images\\363448ec-6823-42fd-a03e-54cbc704b3a5_austin-distel-DfjJMVhwH_8-unsplash.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1058,7 +1058,7 @@
     },
     {
       "Route": "images/3683ed4f-4b7b-445f-bfee-94afc460c571_img4.jpg",
-      "AssetFile": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.APi\\wwwroot\\images\\3683ed4f-4b7b-445f-bfee-94afc460c571_img4.jpg",
+      "AssetFile": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.API\\wwwroot\\images\\3683ed4f-4b7b-445f-bfee-94afc460c571_img4.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1095,7 +1095,7 @@
     },
     {
       "Route": "images/3683ed4f-4b7b-445f-bfee-94afc460c571_img4.o7xog5haj6.jpg",
-      "AssetFile": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.APi\\wwwroot\\images\\3683ed4f-4b7b-445f-bfee-94afc460c571_img4.jpg",
+      "AssetFile": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.API\\wwwroot\\images\\3683ed4f-4b7b-445f-bfee-94afc460c571_img4.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1140,7 +1140,7 @@
     },
     {
       "Route": "images/430a3a4a-ce9b-42ae-89e8-b532faf0868d_VSB_Sagemcom_1.png",
-      "AssetFile": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.APi\\wwwroot\\images\\430a3a4a-ce9b-42ae-89e8-b532faf0868d_VSB_Sagemcom_1.png",
+      "AssetFile": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.API\\wwwroot\\images\\430a3a4a-ce9b-42ae-89e8-b532faf0868d_VSB_Sagemcom_1.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1177,7 +1177,7 @@
     },
     {
       "Route": "images/430a3a4a-ce9b-42ae-89e8-b532faf0868d_VSB_Sagemcom_1.uwct5oxd3z.png",
-      "AssetFile": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.APi\\wwwroot\\images\\430a3a4a-ce9b-42ae-89e8-b532faf0868d_VSB_Sagemcom_1.png",
+      "AssetFile": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.API\\wwwroot\\images\\430a3a4a-ce9b-42ae-89e8-b532faf0868d_VSB_Sagemcom_1.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1222,7 +1222,7 @@
     },
     {
       "Route": "images/49a65e11-2630-44b6-817d-de364953cf1a_téléchargé.jpg",
-      "AssetFile": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.APi\\wwwroot\\images\\49a65e11-2630-44b6-817d-de364953cf1a_téléchargé.jpg",
+      "AssetFile": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.API\\wwwroot\\images\\49a65e11-2630-44b6-817d-de364953cf1a_téléchargé.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1259,7 +1259,7 @@
     },
     {
       "Route": "images/49a65e11-2630-44b6-817d-de364953cf1a_téléchargé.kamwv5b284.jpg",
-      "AssetFile": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.APi\\wwwroot\\images\\49a65e11-2630-44b6-817d-de364953cf1a_téléchargé.jpg",
+      "AssetFile": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.API\\wwwroot\\images\\49a65e11-2630-44b6-817d-de364953cf1a_téléchargé.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1304,7 +1304,7 @@
     },
     {
       "Route": "images/5a734415-2b1f-4947-ae2f-e45941ad87da_VSB_SAGEMCOM_20240828.1476.2ma5fepvzo.png",
-      "AssetFile": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.APi\\wwwroot\\images\\5a734415-2b1f-4947-ae2f-e45941ad87da_VSB_SAGEMCOM_20240828.1476.png",
+      "AssetFile": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.API\\wwwroot\\images\\5a734415-2b1f-4947-ae2f-e45941ad87da_VSB_SAGEMCOM_20240828.1476.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1349,7 +1349,7 @@
     },
     {
       "Route": "images/5a734415-2b1f-4947-ae2f-e45941ad87da_VSB_SAGEMCOM_20240828.1476.png",
-      "AssetFile": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.APi\\wwwroot\\images\\5a734415-2b1f-4947-ae2f-e45941ad87da_VSB_SAGEMCOM_20240828.1476.png",
+      "AssetFile": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.API\\wwwroot\\images\\5a734415-2b1f-4947-ae2f-e45941ad87da_VSB_SAGEMCOM_20240828.1476.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1386,7 +1386,7 @@
     },
     {
       "Route": "images/66467019-baac-4b52-82aa-a23f3ebdd9ae_$_57.png",
-      "AssetFile": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.APi\\wwwroot\\images\\66467019-baac-4b52-82aa-a23f3ebdd9ae_$_57.png",
+      "AssetFile": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.API\\wwwroot\\images\\66467019-baac-4b52-82aa-a23f3ebdd9ae_$_57.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1423,7 +1423,7 @@
     },
     {
       "Route": "images/66467019-baac-4b52-82aa-a23f3ebdd9ae_$_57.sx9itgm9lx.png",
-      "AssetFile": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.APi\\wwwroot\\images\\66467019-baac-4b52-82aa-a23f3ebdd9ae_$_57.png",
+      "AssetFile": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.API\\wwwroot\\images\\66467019-baac-4b52-82aa-a23f3ebdd9ae_$_57.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1468,7 +1468,7 @@
     },
     {
       "Route": "images/746f24fe-293f-4cd1-af0f-273bb8dc33ab_Vodafone_TV_DTIW384_UHD-removebg-preview.1ma5wl9otf.png",
-      "AssetFile": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.APi\\wwwroot\\images\\746f24fe-293f-4cd1-af0f-273bb8dc33ab_Vodafone_TV_DTIW384_UHD-removebg-preview.png",
+      "AssetFile": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.API\\wwwroot\\images\\746f24fe-293f-4cd1-af0f-273bb8dc33ab_Vodafone_TV_DTIW384_UHD-removebg-preview.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1513,7 +1513,7 @@
     },
     {
       "Route": "images/746f24fe-293f-4cd1-af0f-273bb8dc33ab_Vodafone_TV_DTIW384_UHD-removebg-preview.png",
-      "AssetFile": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.APi\\wwwroot\\images\\746f24fe-293f-4cd1-af0f-273bb8dc33ab_Vodafone_TV_DTIW384_UHD-removebg-preview.png",
+      "AssetFile": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.API\\wwwroot\\images\\746f24fe-293f-4cd1-af0f-273bb8dc33ab_Vodafone_TV_DTIW384_UHD-removebg-preview.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1550,7 +1550,7 @@
     },
     {
       "Route": "images/76d081b4-388f-4239-ba39-5a6314e54245_6280425-f-ab847ced-1172-4d18-9336-63125ce0aa30-removebg-preview.ixj8gxww4a.png",
-      "AssetFile": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.APi\\wwwroot\\images\\76d081b4-388f-4239-ba39-5a6314e54245_6280425-f-ab847ced-1172-4d18-9336-63125ce0aa30-removebg-preview.png",
+      "AssetFile": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.API\\wwwroot\\images\\76d081b4-388f-4239-ba39-5a6314e54245_6280425-f-ab847ced-1172-4d18-9336-63125ce0aa30-removebg-preview.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1595,7 +1595,7 @@
     },
     {
       "Route": "images/76d081b4-388f-4239-ba39-5a6314e54245_6280425-f-ab847ced-1172-4d18-9336-63125ce0aa30-removebg-preview.png",
-      "AssetFile": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.APi\\wwwroot\\images\\76d081b4-388f-4239-ba39-5a6314e54245_6280425-f-ab847ced-1172-4d18-9336-63125ce0aa30-removebg-preview.png",
+      "AssetFile": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.API\\wwwroot\\images\\76d081b4-388f-4239-ba39-5a6314e54245_6280425-f-ab847ced-1172-4d18-9336-63125ce0aa30-removebg-preview.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1632,7 +1632,7 @@
     },
     {
       "Route": "images/7dc4d16e-94f1-491b-8674-088930c282bd_pc gamer.jpg",
-      "AssetFile": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.APi\\wwwroot\\images\\7dc4d16e-94f1-491b-8674-088930c282bd_pc gamer.jpg",
+      "AssetFile": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.API\\wwwroot\\images\\7dc4d16e-94f1-491b-8674-088930c282bd_pc gamer.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1669,7 +1669,7 @@
     },
     {
       "Route": "images/7dc4d16e-94f1-491b-8674-088930c282bd_pc gamer.m3svfsh71k.jpg",
-      "AssetFile": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.APi\\wwwroot\\images\\7dc4d16e-94f1-491b-8674-088930c282bd_pc gamer.jpg",
+      "AssetFile": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.API\\wwwroot\\images\\7dc4d16e-94f1-491b-8674-088930c282bd_pc gamer.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1714,7 +1714,7 @@
     },
     {
       "Route": "images/9367bfc8-2570-4579-8f49-63dd72e51489_téléchargé-removebg-preview.png",
-      "AssetFile": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.APi\\wwwroot\\images\\9367bfc8-2570-4579-8f49-63dd72e51489_téléchargé-removebg-preview.png",
+      "AssetFile": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.API\\wwwroot\\images\\9367bfc8-2570-4579-8f49-63dd72e51489_téléchargé-removebg-preview.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1751,7 +1751,7 @@
     },
     {
       "Route": "images/9367bfc8-2570-4579-8f49-63dd72e51489_téléchargé-removebg-preview.ve68w13l1r.png",
-      "AssetFile": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.APi\\wwwroot\\images\\9367bfc8-2570-4579-8f49-63dd72e51489_téléchargé-removebg-preview.png",
+      "AssetFile": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.API\\wwwroot\\images\\9367bfc8-2570-4579-8f49-63dd72e51489_téléchargé-removebg-preview.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1796,7 +1796,7 @@
     },
     {
       "Route": "images/a97a44ac-9b88-46a1-832f-09f70d54034e_logo.3z3poz25tq.png",
-      "AssetFile": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.APi\\wwwroot\\images\\a97a44ac-9b88-46a1-832f-09f70d54034e_logo.png",
+      "AssetFile": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.API\\wwwroot\\images\\a97a44ac-9b88-46a1-832f-09f70d54034e_logo.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1841,7 +1841,7 @@
     },
     {
       "Route": "images/a97a44ac-9b88-46a1-832f-09f70d54034e_logo.png",
-      "AssetFile": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.APi\\wwwroot\\images\\a97a44ac-9b88-46a1-832f-09f70d54034e_logo.png",
+      "AssetFile": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.API\\wwwroot\\images\\a97a44ac-9b88-46a1-832f-09f70d54034e_logo.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1878,7 +1878,7 @@
     },
     {
       "Route": "images/aaeb1360-cce8-404b-a9dd-e81413727194_img3.6dtok3bnkj.jpg",
-      "AssetFile": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.APi\\wwwroot\\images\\aaeb1360-cce8-404b-a9dd-e81413727194_img3.jpg",
+      "AssetFile": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.API\\wwwroot\\images\\aaeb1360-cce8-404b-a9dd-e81413727194_img3.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1923,7 +1923,7 @@
     },
     {
       "Route": "images/aaeb1360-cce8-404b-a9dd-e81413727194_img3.jpg",
-      "AssetFile": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.APi\\wwwroot\\images\\aaeb1360-cce8-404b-a9dd-e81413727194_img3.jpg",
+      "AssetFile": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.API\\wwwroot\\images\\aaeb1360-cce8-404b-a9dd-e81413727194_img3.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1960,7 +1960,7 @@
     },
     {
       "Route": "images/b705e458-a4b6-4f26-a408-a373bbf4b4f7_téléchargé__1_-removebg-preview.png",
-      "AssetFile": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.APi\\wwwroot\\images\\b705e458-a4b6-4f26-a408-a373bbf4b4f7_téléchargé__1_-removebg-preview.png",
+      "AssetFile": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.API\\wwwroot\\images\\b705e458-a4b6-4f26-a408-a373bbf4b4f7_téléchargé__1_-removebg-preview.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1997,7 +1997,7 @@
     },
     {
       "Route": "images/b705e458-a4b6-4f26-a408-a373bbf4b4f7_téléchargé__1_-removebg-preview.zc5pyhujbh.png",
-      "AssetFile": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.APi\\wwwroot\\images\\b705e458-a4b6-4f26-a408-a373bbf4b4f7_téléchargé__1_-removebg-preview.png",
+      "AssetFile": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.API\\wwwroot\\images\\b705e458-a4b6-4f26-a408-a373bbf4b4f7_téléchargé__1_-removebg-preview.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2042,7 +2042,7 @@
     },
     {
       "Route": "images/b8eb4bd7-ef50-44b9-925a-dd6ad0880513_img5.jpg",
-      "AssetFile": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.APi\\wwwroot\\images\\b8eb4bd7-ef50-44b9-925a-dd6ad0880513_img5.jpg",
+      "AssetFile": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.API\\wwwroot\\images\\b8eb4bd7-ef50-44b9-925a-dd6ad0880513_img5.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2079,7 +2079,7 @@
     },
     {
       "Route": "images/b8eb4bd7-ef50-44b9-925a-dd6ad0880513_img5.kv8zaxiblu.jpg",
-      "AssetFile": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.APi\\wwwroot\\images\\b8eb4bd7-ef50-44b9-925a-dd6ad0880513_img5.jpg",
+      "AssetFile": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.API\\wwwroot\\images\\b8eb4bd7-ef50-44b9-925a-dd6ad0880513_img5.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2124,7 +2124,7 @@
     },
     {
       "Route": "images/bf26494c-6d13-4fd1-939b-26100e67856f_LOGO_SAGEMCOM.png",
-      "AssetFile": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.APi\\wwwroot\\images\\bf26494c-6d13-4fd1-939b-26100e67856f_LOGO_SAGEMCOM.png",
+      "AssetFile": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.API\\wwwroot\\images\\bf26494c-6d13-4fd1-939b-26100e67856f_LOGO_SAGEMCOM.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2161,7 +2161,7 @@
     },
     {
       "Route": "images/bf26494c-6d13-4fd1-939b-26100e67856f_LOGO_SAGEMCOM.xudj68c1ru.png",
-      "AssetFile": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.APi\\wwwroot\\images\\bf26494c-6d13-4fd1-939b-26100e67856f_LOGO_SAGEMCOM.png",
+      "AssetFile": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.API\\wwwroot\\images\\bf26494c-6d13-4fd1-939b-26100e67856f_LOGO_SAGEMCOM.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2206,7 +2206,7 @@
     },
     {
       "Route": "images/c51c1b83-a2df-49c1-b379-fb66cc08d2ee_6280425-f-ab847ced-1172-4d18-9336-63125ce0aa30.is0ezoloww.png",
-      "AssetFile": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.APi\\wwwroot\\images\\c51c1b83-a2df-49c1-b379-fb66cc08d2ee_6280425-f-ab847ced-1172-4d18-9336-63125ce0aa30.png",
+      "AssetFile": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.API\\wwwroot\\images\\c51c1b83-a2df-49c1-b379-fb66cc08d2ee_6280425-f-ab847ced-1172-4d18-9336-63125ce0aa30.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2251,7 +2251,7 @@
     },
     {
       "Route": "images/c51c1b83-a2df-49c1-b379-fb66cc08d2ee_6280425-f-ab847ced-1172-4d18-9336-63125ce0aa30.png",
-      "AssetFile": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.APi\\wwwroot\\images\\c51c1b83-a2df-49c1-b379-fb66cc08d2ee_6280425-f-ab847ced-1172-4d18-9336-63125ce0aa30.png",
+      "AssetFile": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.API\\wwwroot\\images\\c51c1b83-a2df-49c1-b379-fb66cc08d2ee_6280425-f-ab847ced-1172-4d18-9336-63125ce0aa30.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2288,7 +2288,7 @@
     },
     {
       "Route": "images/cabc07f9-7f02-4c56-988e-83ea5bf07621_pc gamer.jpg",
-      "AssetFile": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.APi\\wwwroot\\images\\cabc07f9-7f02-4c56-988e-83ea5bf07621_pc gamer.jpg",
+      "AssetFile": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.API\\wwwroot\\images\\cabc07f9-7f02-4c56-988e-83ea5bf07621_pc gamer.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2325,7 +2325,7 @@
     },
     {
       "Route": "images/cabc07f9-7f02-4c56-988e-83ea5bf07621_pc gamer.m3svfsh71k.jpg",
-      "AssetFile": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.APi\\wwwroot\\images\\cabc07f9-7f02-4c56-988e-83ea5bf07621_pc gamer.jpg",
+      "AssetFile": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.API\\wwwroot\\images\\cabc07f9-7f02-4c56-988e-83ea5bf07621_pc gamer.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2370,7 +2370,7 @@
     },
     {
       "Route": "images/ce0af102-a168-4285-accf-f4911d190abc_logo.3z3poz25tq.png",
-      "AssetFile": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.APi\\wwwroot\\images\\ce0af102-a168-4285-accf-f4911d190abc_logo.png",
+      "AssetFile": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.API\\wwwroot\\images\\ce0af102-a168-4285-accf-f4911d190abc_logo.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2415,7 +2415,7 @@
     },
     {
       "Route": "images/ce0af102-a168-4285-accf-f4911d190abc_logo.png",
-      "AssetFile": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.APi\\wwwroot\\images\\ce0af102-a168-4285-accf-f4911d190abc_logo.png",
+      "AssetFile": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.API\\wwwroot\\images\\ce0af102-a168-4285-accf-f4911d190abc_logo.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2452,7 +2452,7 @@
     },
     {
       "Route": "images/e4b4f483-d5a4-49ad-9c27-a678db85e0c9_pc gamer.jpg",
-      "AssetFile": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.APi\\wwwroot\\images\\e4b4f483-d5a4-49ad-9c27-a678db85e0c9_pc gamer.jpg",
+      "AssetFile": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.API\\wwwroot\\images\\e4b4f483-d5a4-49ad-9c27-a678db85e0c9_pc gamer.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2489,7 +2489,7 @@
     },
     {
       "Route": "images/e4b4f483-d5a4-49ad-9c27-a678db85e0c9_pc gamer.m3svfsh71k.jpg",
-      "AssetFile": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.APi\\wwwroot\\images\\e4b4f483-d5a4-49ad-9c27-a678db85e0c9_pc gamer.jpg",
+      "AssetFile": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.API\\wwwroot\\images\\e4b4f483-d5a4-49ad-9c27-a678db85e0c9_pc gamer.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2534,7 +2534,7 @@
     },
     {
       "Route": "images/eb8463c0-af15-44af-ae3c-0934d1b0be10_img5.jpg",
-      "AssetFile": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.APi\\wwwroot\\images\\eb8463c0-af15-44af-ae3c-0934d1b0be10_img5.jpg",
+      "AssetFile": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.API\\wwwroot\\images\\eb8463c0-af15-44af-ae3c-0934d1b0be10_img5.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2571,7 +2571,7 @@
     },
     {
       "Route": "images/eb8463c0-af15-44af-ae3c-0934d1b0be10_img5.kv8zaxiblu.jpg",
-      "AssetFile": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.APi\\wwwroot\\images\\eb8463c0-af15-44af-ae3c-0934d1b0be10_img5.jpg",
+      "AssetFile": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.API\\wwwroot\\images\\eb8463c0-af15-44af-ae3c-0934d1b0be10_img5.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2616,7 +2616,7 @@
     },
     {
       "Route": "images/f50f28c9-5a00-48f2-a713-4f567ab3deaa_pexels-tima-miroshnichenko-6169641.7suzrmae8v.jpg",
-      "AssetFile": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.APi\\wwwroot\\images\\f50f28c9-5a00-48f2-a713-4f567ab3deaa_pexels-tima-miroshnichenko-6169641.jpg",
+      "AssetFile": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.API\\wwwroot\\images\\f50f28c9-5a00-48f2-a713-4f567ab3deaa_pexels-tima-miroshnichenko-6169641.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2661,7 +2661,7 @@
     },
     {
       "Route": "images/f50f28c9-5a00-48f2-a713-4f567ab3deaa_pexels-tima-miroshnichenko-6169641.jpg",
-      "AssetFile": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.APi\\wwwroot\\images\\f50f28c9-5a00-48f2-a713-4f567ab3deaa_pexels-tima-miroshnichenko-6169641.jpg",
+      "AssetFile": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.API\\wwwroot\\images\\f50f28c9-5a00-48f2-a713-4f567ab3deaa_pexels-tima-miroshnichenko-6169641.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {

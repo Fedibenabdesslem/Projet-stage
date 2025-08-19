@@ -1,7 +1,8 @@
+using GestionProduit.Application.DTOs;
 using GestionProduit.Application.Interfaces;
-using GestionProduit.Domain.Entities;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using System.Security.Claims;
 
 namespace GestionProduit.API.Controllers
 {
@@ -17,15 +18,29 @@ namespace GestionProduit.API.Controllers
             _panierService = panierService;
         }
 
-        [HttpGet("{userId}")]
-        public async Task<ActionResult<List<PanierItem>>> GetPanier(Guid userId)
+        // Récupère l'ID utilisateur depuis le JWT
+        private Guid GetUserIdFromToken()
         {
-            return Ok(await _panierService.GetPanierByUserAsync(userId));
+            var userIdString = User.Claims.FirstOrDefault(c => c.Type == ClaimTypes.NameIdentifier || c.Type == "sub")?.Value;
+
+            if (string.IsNullOrEmpty(userIdString))
+                throw new Exception("Impossible de récupérer l'ID utilisateur depuis le token.");
+
+            return Guid.Parse(userIdString);
+        }
+
+        [HttpGet("liste")]
+        public async Task<ActionResult<List<PanierDto>>> GetPanier()
+        {
+            var userId = GetUserIdFromToken();
+            var panier = await _panierService.GetPanierByUserAsync(userId);
+            return Ok(panier);
         }
 
         [HttpPost("ajouter")]
-        public async Task<ActionResult<PanierItem>> AjouterAuPanier(Guid userId, int produitId, int quantite)
+        public async Task<ActionResult<PanierDto>> AjouterAuPanier(int produitId, int quantite)
         {
+            var userId = GetUserIdFromToken();
             var item = await _panierService.AjouterAuPanierAsync(userId, produitId, quantite);
             return Ok(item);
         }
@@ -33,13 +48,23 @@ namespace GestionProduit.API.Controllers
         [HttpDelete("{panierItemId}")]
         public async Task<ActionResult> RetirerDuPanier(int panierItemId)
         {
-            await _panierService.RetirerDuPanierAsync(panierItemId);
-            return NoContent();
+            var userId = GetUserIdFromToken();
+            try
+            {
+                await _panierService.RetirerDuPanierAsync(panierItemId, userId);
+                return NoContent();
+            }
+            catch (Exception ex)
+            {
+                return NotFound(ex.Message);
+            }
         }
 
-        [HttpDelete("vider/{userId}")]
-        public async Task<ActionResult> ViderPanier(Guid userId)
+
+        [HttpDelete("vider")]
+        public async Task<ActionResult> ViderPanier()
         {
+            var userId = GetUserIdFromToken();
             await _panierService.ViderPanierAsync(userId);
             return NoContent();
         }
