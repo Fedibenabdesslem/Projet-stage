@@ -61,6 +61,7 @@ namespace GestionProduit.API.Controllers
         }
 
 
+
         [HttpDelete("vider")]
         public async Task<ActionResult> ViderPanier()
         {

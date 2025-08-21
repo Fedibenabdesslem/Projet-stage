@@ -12,11 +12,13 @@ public class ProduitController : ControllerBase
 {
     private readonly IProduitService _produitService;
     private readonly IWebHostEnvironment _env;
+    private readonly ILogger<ProduitController> _logger;
 
-    public ProduitController(IProduitService produitService, IWebHostEnvironment env)
+    public ProduitController(IProduitService produitService, IWebHostEnvironment env, ILogger<ProduitController> logger)
     {
         _produitService = produitService;
         _env = env;
+        _logger = logger;
     }
 
     // GET: api/produit
@@ -31,8 +33,7 @@ public class ProduitController : ControllerBase
     public async Task<ActionResult<Produit>> GetById(int id)
     {
         var produit = await _produitService.GetProduitByIdAsync(id);
-        if (produit == null)
-            return NotFound();
+        if (produit == null) return NotFound();
         return Ok(produit);
     }
 
@@ -40,59 +41,61 @@ public class ProduitController : ControllerBase
     [HttpPost]
     public async Task<ActionResult> Create([FromForm] Produit produit)
     {
-        // Gestion de l'image
-        var file = Request.Form.Files.FirstOrDefault();
-        if (file != null && file.Length > 0)
+        try
         {
-            var fileName = $"{Guid.NewGuid()}_{file.FileName}";
-            var path = Path.Combine(_env.WebRootPath, "images", fileName);
-
-            using (var stream = new FileStream(path, FileMode.Create))
+            if (Request.Form.Files.Any())
             {
-                await file.CopyToAsync(stream);
+                produit.ImageUrl = await SaveImageAsync(Request.Form.Files.First());
             }
 
-            produit.ImageUrl = $"/images/{fileName}";
+            await _produitService.AjouterProduitAsync(produit);
+            return CreatedAtAction(nameof(GetById), new { id = produit.Id }, produit);
         }
-
-        await _produitService.AjouterProduitAsync(produit);
-        return CreatedAtAction(nameof(GetById), new { id = produit.Id }, produit);
+        catch (Exception ex)
+        {
+            _logger.LogError(ex, "Erreur lors de la création du produit");
+            return StatusCode(500, ex.Message);
+        }
     }
 
-    // PUT: api/produit/{id}
+    
     // PUT: api/produit/{id}
     [HttpPut("{id}")]
     public async Task<ActionResult> Update(int id, [FromForm] Produit produit)
     {
         if (id != produit.Id)
-            return BadRequest();
+            return BadRequest("L'ID du produit ne correspond pas.");
 
-        var existingProduit = await _produitService.GetProduitByIdAsync(id);
-        if (existingProduit == null)
-            return NotFound();
-
-        
-        var file = Request.Form.Files.FirstOrDefault();
-        if (file != null && file.Length > 0)
+        try
         {
-            var fileName = $"{Guid.NewGuid()}_{file.FileName}";
-            var path = Path.Combine(_env.WebRootPath, "images", fileName);
+            // Récupérer l'entité suivie par EF via le service
+            var existingProduit = await _produitService.GetProduitByIdAsync(id);
+            if (existingProduit == null)
+                return NotFound();
 
-            using (var stream = new FileStream(path, FileMode.Create))
+            // Gérer l'image si uploadé
+            if (Request.Form.Files.Any())
             {
-                await file.CopyToAsync(stream);
+                existingProduit.ImageUrl = await SaveImageAsync(Request.Form.Files.First());
             }
 
-            produit.ImageUrl = $"/images/{fileName}";
-        }
-        else
-        {
-            // Conserver l’ancienne image si aucune nouvelle n’est fournie
-            produit.ImageUrl = existingProduit.ImageUrl;
-        }
+            // Mettre à jour les autres propriétés
+            existingProduit.Nom = produit.Nom;
+            existingProduit.Description = produit.Description;
+            existingProduit.Prix = produit.Prix;
+            existingProduit.Stock = produit.Stock;
+            // ajouter d'autres propriétés si nécessaire
 
-        await _produitService.ModifierProduitAsync(produit);
-        return NoContent();
+            // Appeler le service pour sauvegarder les modifications
+            await _produitService.ModifierProduitAsync(existingProduit);
+
+            return NoContent();
+        }
+        catch (Exception ex)
+        {
+            _logger.LogError(ex, $"Erreur lors de la modification du produit avec ID {id}");
+            return StatusCode(500, ex.Message);
+        }
     }
 
 
@@ -100,31 +103,50 @@ public class ProduitController : ControllerBase
     [HttpDelete("{id}")]
     public async Task<ActionResult> Delete(int id)
     {
-        await _produitService.SupprimerProduitAsync(id);
-        return NoContent();
+        try
+        {
+            await _produitService.SupprimerProduitAsync(id);
+            return NoContent();
+        }
+        catch (Exception ex)
+        {
+            _logger.LogError(ex, $"Erreur lors de la suppression du produit avec ID {id}");
+            return StatusCode(500, ex.Message);
+        }
     }
 
     // POST: api/produit/upload-image/{id}
     [HttpPost("upload-image/{id}")]
     public async Task<IActionResult> UploadImage(int id, IFormFile file)
     {
-        if (file == null || file.Length == 0)
-            return BadRequest("Fichier invalide.");
+        if (file == null || file.Length == 0) return BadRequest("Fichier invalide.");
 
-        var produit = await _produitService.GetProduitByIdAsync(id);
-        if (produit == null) return NotFound();
+        try
+        {
+            var produit = await _produitService.GetProduitByIdAsync(id);
+            if (produit == null) return NotFound();
 
+            produit.ImageUrl = await SaveImageAsync(file);
+            await _produitService.ModifierProduitAsync(produit);
+
+            return Ok(produit);
+        }
+        catch (Exception ex)
+        {
+            _logger.LogError(ex, $"Erreur lors de l'upload de l'image pour le produit {id}");
+            return StatusCode(500, ex.Message);
+        }
+    }
+
+    // Méthode utilitaire pour sauvegarder l'image
+    private async Task<string> SaveImageAsync(IFormFile file)
+    {
         var fileName = $"{Guid.NewGuid()}_{file.FileName}";
         var path = Path.Combine(_env.WebRootPath, "images", fileName);
 
-        using (var stream = new FileStream(path, FileMode.Create))
-        {
-            await file.CopyToAsync(stream);
-        }
+        using var stream = new FileStream(path, FileMode.Create);
+        await file.CopyToAsync(stream);
 
-        produit.ImageUrl = $"/images/{fileName}";
-        await _produitService.ModifierProduitAsync(produit);
-
-        return Ok(produit);
+        return $"/images/{fileName}";
     }
 }

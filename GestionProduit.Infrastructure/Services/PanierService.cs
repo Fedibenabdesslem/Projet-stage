@@ -25,10 +25,18 @@ namespace GestionProduit.Infrastructure.Services
                 {
                     Id = p.Id,
                     ProduitId = p.ProduitId,
-                    ProduitNom = p.Produit != null ? p.Produit.Nom : "Inconnu",
                     UserId = p.UserId,
-                    Username = p.User != null ? p.User.Username : "Inconnu", // ? corrigé
-                    Quantite = p.Quantite
+                    Username = p.User != null ? p.User.Username : "Inconnu",
+                    Quantite = p.Quantite,
+                    Produit = p.Produit != null ? new ProduitDto
+                    {
+                        Id = p.Produit.Id,
+                        Nom = p.Produit.Nom,
+                        Description = p.Produit.Description,
+                        Prix = p.Produit.Prix,
+                        Stock = p.Produit.Stock,
+                        ImageUrl = p.Produit.ImageUrl
+                    } : new ProduitDto()
                 })
                 .ToListAsync();
         }
@@ -50,10 +58,18 @@ namespace GestionProduit.Infrastructure.Services
                 {
                     Id = existingItem.Id,
                     ProduitId = existingItem.ProduitId,
-                    ProduitNom = existingItem.Produit?.Nom ?? "Inconnu",
                     UserId = existingItem.UserId,
-                    Username = existingItem.User?.Username ?? "Inconnu", // ? corrigé
-                    Quantite = existingItem.Quantite
+                    Username = existingItem.User?.Username ?? "Inconnu",
+                    Quantite = existingItem.Quantite,
+                    Produit = existingItem.Produit != null ? new ProduitDto
+                    {
+                        Id = existingItem.Produit.Id,
+                        Nom = existingItem.Produit.Nom,
+                        Description = existingItem.Produit.Description,
+                        Prix = existingItem.Produit.Prix,
+                        Stock = existingItem.Produit.Stock,
+                        ImageUrl = existingItem.Produit.ImageUrl
+                    } : new ProduitDto()
                 };
             }
 
@@ -76,10 +92,18 @@ namespace GestionProduit.Infrastructure.Services
             {
                 Id = panierItem.Id,
                 ProduitId = panierItem.ProduitId,
-                ProduitNom = panierItem.Produit?.Nom ?? "Inconnu",
                 UserId = panierItem.UserId,
-                Username = panierItem.User?.Username ?? "Inconnu", // ? corrigé
-                Quantite = panierItem.Quantite
+                Username = panierItem.User?.Username ?? "Inconnu",
+                Quantite = panierItem.Quantite,
+                Produit = panierItem.Produit != null ? new ProduitDto
+                {
+                    Id = panierItem.Produit.Id,
+                    Nom = panierItem.Produit.Nom,
+                    Description = panierItem.Produit.Description,
+                    Prix = panierItem.Produit.Prix,
+                    Stock = panierItem.Produit.Stock,
+                    ImageUrl = panierItem.Produit.ImageUrl
+                } : new ProduitDto()
             };
         }
 
@@ -95,8 +119,6 @@ namespace GestionProduit.Infrastructure.Services
             await _context.SaveChangesAsync();
         }
 
-
-
         public async Task ViderPanierAsync(Guid userId)
         {
             var items = _context.PanierItems.Where(p => p.UserId == userId);
@@ -104,6 +126,7 @@ namespace GestionProduit.Infrastructure.Services
             await _context.SaveChangesAsync();
         }
 
+        // Cette méthode n’est plus nécessaire si on utilise RetirerDuPanierAsync avec userId
         public Task RetirerDuPanierAsync(int panierItemId)
         {
             throw new NotImplementedException();
