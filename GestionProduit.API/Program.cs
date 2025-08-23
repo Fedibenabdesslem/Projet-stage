@@ -23,14 +23,17 @@ Console.WriteLine("SmtpHost: " + emailSection["SmtpHost"]);
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-// Injection des dépendances
+// Injection des dépendances : repositories
 builder.Services.AddScoped<IProduitRepository, ProduitRepository>();
-builder.Services.AddScoped<IProduitService, ProduitService>();
 builder.Services.AddScoped<IUserRepository, UserRepository>();
-builder.Services.AddScoped<IAuthService, AuthService>();
 
-// Injection du service Panier
+// Injection des services application
+builder.Services.AddScoped<IProduitService, ProduitService>();
+builder.Services.AddScoped<IAuthService, AuthService>();
 builder.Services.AddScoped<IPanierService, PanierService>();
+
+// Injection du service Commande
+builder.Services.AddScoped<ICommandeService, CommandeService>();
 
 // Injection du service email
 builder.Services.AddTransient<IEmailService, EmailService>();

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "7EveQ+8QGRXBuABeMr376ddiKGM1ePBtolYM/XqtRtQ=",
+  "Hash": "fty3Un7EeUON9vZBzqC5m+TJhnvoMhlZB9Z3wky9H2I=",
   "Source": "GestionProduit.API",
   "BasePath": "_content/GestionProduit.API",
   "Mode": "Default",
@@ -311,6 +311,27 @@
       "OriginalItemSpec": "wwwroot\\images\\7dc4d16e-94f1-491b-8674-088930c282bd_pc gamer.jpg"
     },
     {
+      "Identity": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.API\\wwwroot\\images\\7febad54-d081-4bfd-a257-e5cc6dbf221d_Nouvelle-Livebox-7-3QUART_BDef_RVB_Detoure-EcoOFF.png",
+      "SourceId": "GestionProduit.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.API\\wwwroot\\",
+      "BasePath": "_content/GestionProduit.API",
+      "RelativePath": "images/7febad54-d081-4bfd-a257-e5cc6dbf221d_Nouvelle-Livebox-7-3QUART_BDef_RVB_Detoure-EcoOFF#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5ac9eej937",
+      "Integrity": "bdyPc+hdDIA/FIH4JFr0qz7R+j/0NLVtgqGHivWDcRE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\7febad54-d081-4bfd-a257-e5cc6dbf221d_Nouvelle-Livebox-7-3QUART_BDef_RVB_Detoure-EcoOFF.png"
+    },
+    {
       "Identity": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.API\\wwwroot\\images\\9367bfc8-2570-4579-8f49-63dd72e51489_téléchargé-removebg-preview.png",
       "SourceId": "GestionProduit.API",
       "SourceType": "Discovered",
@@ -393,6 +414,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\b705e458-a4b6-4f26-a408-a373bbf4b4f7_téléchargé__1_-removebg-preview.png"
+    },
+    {
+      "Identity": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.API\\wwwroot\\images\\b87ca23f-1b1c-48bc-832e-9a18b139bc4c_téléchargé__2_-removebg-preview.png",
+      "SourceId": "GestionProduit.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.API\\wwwroot\\",
+      "BasePath": "_content/GestionProduit.API",
+      "RelativePath": "images/b87ca23f-1b1c-48bc-832e-9a18b139bc4c_téléchargé__2_-removebg-preview#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "grq2s1x8im",
+      "Integrity": "BLz4bxr5EyC2YTzL7zlqlAfybPz7XTMG1vrLTtAHU1s=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\b87ca23f-1b1c-48bc-832e-9a18b139bc4c_téléchargé__2_-removebg-preview.png"
     },
     {
       "Identity": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.API\\wwwroot\\images\\b8eb4bd7-ef50-44b9-925a-dd6ad0880513_img5.jpg",
@@ -498,6 +540,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\ce0af102-a168-4285-accf-f4911d190abc_logo.png"
+    },
+    {
+      "Identity": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.API\\wwwroot\\images\\d36725c6-8d77-4a52-b0de-1d259af23f1b_bookShop.jpg",
+      "SourceId": "GestionProduit.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.API\\wwwroot\\",
+      "BasePath": "_content/GestionProduit.API",
+      "RelativePath": "images/d36725c6-8d77-4a52-b0de-1d259af23f1b_bookShop#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "el9hughoo4",
+      "Integrity": "0nhFg4+H/mgP7imDzd2+LLnFCKFPa2iCqK9vW6Bhfkw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\d36725c6-8d77-4a52-b0de-1d259af23f1b_bookShop.jpg"
     },
     {
       "Identity": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.API\\wwwroot\\images\\e4b4f483-d5a4-49ad-9c27-a678db85e0c9_pc gamer.jpg",
@@ -1713,6 +1776,88 @@
       ]
     },
     {
+      "Route": "images/7febad54-d081-4bfd-a257-e5cc6dbf221d_Nouvelle-Livebox-7-3QUART_BDef_RVB_Detoure-EcoOFF.5ac9eej937.png",
+      "AssetFile": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.API\\wwwroot\\images\\7febad54-d081-4bfd-a257-e5cc6dbf221d_Nouvelle-Livebox-7-3QUART_BDef_RVB_Detoure-EcoOFF.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2486136"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bdyPc+hdDIA/FIH4JFr0qz7R+j/0NLVtgqGHivWDcRE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 21 Aug 2025 14:57:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5ac9eej937"
+        },
+        {
+          "Name": "label",
+          "Value": "images/7febad54-d081-4bfd-a257-e5cc6dbf221d_Nouvelle-Livebox-7-3QUART_BDef_RVB_Detoure-EcoOFF.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-bdyPc+hdDIA/FIH4JFr0qz7R+j/0NLVtgqGHivWDcRE="
+        }
+      ]
+    },
+    {
+      "Route": "images/7febad54-d081-4bfd-a257-e5cc6dbf221d_Nouvelle-Livebox-7-3QUART_BDef_RVB_Detoure-EcoOFF.png",
+      "AssetFile": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.API\\wwwroot\\images\\7febad54-d081-4bfd-a257-e5cc6dbf221d_Nouvelle-Livebox-7-3QUART_BDef_RVB_Detoure-EcoOFF.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2486136"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bdyPc+hdDIA/FIH4JFr0qz7R+j/0NLVtgqGHivWDcRE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 21 Aug 2025 14:57:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-bdyPc+hdDIA/FIH4JFr0qz7R+j/0NLVtgqGHivWDcRE="
+        }
+      ]
+    },
+    {
       "Route": "images/9367bfc8-2570-4579-8f49-63dd72e51489_téléchargé-removebg-preview.png",
       "AssetFile": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.API\\wwwroot\\images\\9367bfc8-2570-4579-8f49-63dd72e51489_téléchargé-removebg-preview.png",
       "Selectors": [],
@@ -2037,6 +2182,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-nTIgbXCJNcPDPp9QNhQFUwdChV+b/4qQqVRRLInEMYw="
+        }
+      ]
+    },
+    {
+      "Route": "images/b87ca23f-1b1c-48bc-832e-9a18b139bc4c_téléchargé__2_-removebg-preview.grq2s1x8im.png",
+      "AssetFile": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.API\\wwwroot\\images\\b87ca23f-1b1c-48bc-832e-9a18b139bc4c_téléchargé__2_-removebg-preview.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "16536"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BLz4bxr5EyC2YTzL7zlqlAfybPz7XTMG1vrLTtAHU1s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 21 Aug 2025 15:02:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "grq2s1x8im"
+        },
+        {
+          "Name": "label",
+          "Value": "images/b87ca23f-1b1c-48bc-832e-9a18b139bc4c_téléchargé__2_-removebg-preview.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-BLz4bxr5EyC2YTzL7zlqlAfybPz7XTMG1vrLTtAHU1s="
+        }
+      ]
+    },
+    {
+      "Route": "images/b87ca23f-1b1c-48bc-832e-9a18b139bc4c_téléchargé__2_-removebg-preview.png",
+      "AssetFile": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.API\\wwwroot\\images\\b87ca23f-1b1c-48bc-832e-9a18b139bc4c_téléchargé__2_-removebg-preview.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "16536"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BLz4bxr5EyC2YTzL7zlqlAfybPz7XTMG1vrLTtAHU1s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 21 Aug 2025 15:02:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-BLz4bxr5EyC2YTzL7zlqlAfybPz7XTMG1vrLTtAHU1s="
         }
       ]
     },
@@ -2447,6 +2674,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-oTsI/COZ216RGmnMi2KDV16jlhhuZ/wxBqzB6lFTZx8="
+        }
+      ]
+    },
+    {
+      "Route": "images/d36725c6-8d77-4a52-b0de-1d259af23f1b_bookShop.el9hughoo4.jpg",
+      "AssetFile": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.API\\wwwroot\\images\\d36725c6-8d77-4a52-b0de-1d259af23f1b_bookShop.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "196273"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0nhFg4+H/mgP7imDzd2+LLnFCKFPa2iCqK9vW6Bhfkw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 21 Aug 2025 14:54:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "el9hughoo4"
+        },
+        {
+          "Name": "label",
+          "Value": "images/d36725c6-8d77-4a52-b0de-1d259af23f1b_bookShop.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-0nhFg4+H/mgP7imDzd2+LLnFCKFPa2iCqK9vW6Bhfkw="
+        }
+      ]
+    },
+    {
+      "Route": "images/d36725c6-8d77-4a52-b0de-1d259af23f1b_bookShop.jpg",
+      "AssetFile": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.API\\wwwroot\\images\\d36725c6-8d77-4a52-b0de-1d259af23f1b_bookShop.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "196273"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0nhFg4+H/mgP7imDzd2+LLnFCKFPa2iCqK9vW6Bhfkw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 21 Aug 2025 14:54:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-0nhFg4+H/mgP7imDzd2+LLnFCKFPa2iCqK9vW6Bhfkw="
         }
       ]
     },

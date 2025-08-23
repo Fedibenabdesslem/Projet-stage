@@ -57,6 +57,10 @@
       "PackagePath": "staticwebassets\\images\\7dc4d16e-94f1-491b-8674-088930c282bd_pc gamer.jpg"
     },
     {
+      "Id": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.API\\wwwroot\\images\\7febad54-d081-4bfd-a257-e5cc6dbf221d_Nouvelle-Livebox-7-3QUART_BDef_RVB_Detoure-EcoOFF.png",
+      "PackagePath": "staticwebassets\\images\\7febad54-d081-4bfd-a257-e5cc6dbf221d_Nouvelle-Livebox-7-3QUART_BDef_RVB_Detoure-EcoOFF.png"
+    },
+    {
       "Id": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.API\\wwwroot\\images\\9367bfc8-2570-4579-8f49-63dd72e51489_téléchargé-removebg-preview.png",
       "PackagePath": "staticwebassets\\images\\9367bfc8-2570-4579-8f49-63dd72e51489_téléchargé-removebg-preview.png"
     },
@@ -71,6 +75,10 @@
     {
       "Id": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.API\\wwwroot\\images\\b705e458-a4b6-4f26-a408-a373bbf4b4f7_téléchargé__1_-removebg-preview.png",
       "PackagePath": "staticwebassets\\images\\b705e458-a4b6-4f26-a408-a373bbf4b4f7_téléchargé__1_-removebg-preview.png"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.API\\wwwroot\\images\\b87ca23f-1b1c-48bc-832e-9a18b139bc4c_téléchargé__2_-removebg-preview.png",
+      "PackagePath": "staticwebassets\\images\\b87ca23f-1b1c-48bc-832e-9a18b139bc4c_téléchargé__2_-removebg-preview.png"
     },
     {
       "Id": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.API\\wwwroot\\images\\b8eb4bd7-ef50-44b9-925a-dd6ad0880513_img5.jpg",
@@ -91,6 +99,10 @@
     {
       "Id": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.API\\wwwroot\\images\\ce0af102-a168-4285-accf-f4911d190abc_logo.png",
       "PackagePath": "staticwebassets\\images\\ce0af102-a168-4285-accf-f4911d190abc_logo.png"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.API\\wwwroot\\images\\d36725c6-8d77-4a52-b0de-1d259af23f1b_bookShop.jpg",
+      "PackagePath": "staticwebassets\\images\\d36725c6-8d77-4a52-b0de-1d259af23f1b_bookShop.jpg"
     },
     {
       "Id": "C:\\Users\\LENOVO\\Stage2\\src\\GestionProduit.API\\wwwroot\\images\\e4b4f483-d5a4-49ad-9c27-a678db85e0c9_pc gamer.jpg",
