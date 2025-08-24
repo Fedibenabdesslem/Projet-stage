@@ -20,8 +20,9 @@ namespace GestionProduit.Infrastructure.Data
         // Commandes
         public DbSet<Commande> Commandes => Set<Commande>();
 
-        // CommandeItems
+        // Éléments de commande (si tu les gères séparément)
         public DbSet<CommandeItem> CommandeItems => Set<CommandeItem>();
+
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -30,7 +31,7 @@ namespace GestionProduit.Infrastructure.Data
             // Relation Commande -> User
             modelBuilder.Entity<Commande>()
                 .HasOne(c => c.User)
-                .WithMany(u => u.Commandes)
+                .WithMany(u => u.Commandes) // <- pas de 'static' ici
                 .HasForeignKey(c => c.UserId);
 
             // Relation CommandeItem -> Commande
@@ -41,9 +42,10 @@ namespace GestionProduit.Infrastructure.Data
 
             // Relation CommandeItem -> Produit
             modelBuilder.Entity<CommandeItem>()
-                .HasOne<Produit>()
+                .HasOne<Produit>()       // Produit est la cible, pas de lambda
                 .WithMany()
                 .HasForeignKey(ci => ci.ProduitId);
         }
+
     }
 }

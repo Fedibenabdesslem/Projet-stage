@@ -15,7 +15,7 @@ namespace GestionProduit.Infrastructure.Services
             _context = context;
         }
 
-        public async Task<CommandeDto> CreerDepuisPanierAsync(Guid userId, string username, CommandeCreateDto input)
+        public async Task<CommandeDto> CreerDepuisPanierAsync(Guid userId, string username, CommandeCreateDto? input)
         {
             var panier = await _context.PanierItems
                 .Include(p => p.Produit)
@@ -43,8 +43,8 @@ namespace GestionProduit.Infrastructure.Services
                 {
                     UserId = userId,
                     Username = username,
-                    AdresseLivraison = input.AdresseLivraison,
-                    ModePaiement = input.ModePaiement,
+                    AdresseLivraison = input?.AdresseLivraison ?? "Adresse par défaut",
+                    ModePaiement = input?.ModePaiement ?? "à la livraison",
                     Statut = "EnAttente",
                     Total = total
                 };
@@ -78,6 +78,7 @@ namespace GestionProduit.Infrastructure.Services
                 throw;
             }
         }
+
 
         public async Task<List<CommandeDto>> GetMesCommandesAsync(Guid userId)
         {

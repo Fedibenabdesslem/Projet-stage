@@ -23,17 +23,38 @@ namespace GestionProduit.API.Controllers
 
         private (Guid userId, string username) GetUser()
         {
-            var idStr = User.Claims.FirstOrDefault(c => c.Type == ClaimTypes.NameIdentifier || c.Type == JwtRegisteredClaimNames.Sub)?.Value;
-            var username = User.Claims.FirstOrDefault(c => c.Type == ClaimTypes.Name)?.Value;
+            var idStr = User.Claims.FirstOrDefault(c => c.Type == ClaimTypes.NameIdentifier)?.Value
+                        ?? User.Claims.FirstOrDefault(c => c.Type == JwtRegisteredClaimNames.Sub)?.Value;
 
-            if (string.IsNullOrWhiteSpace(idStr) || string.IsNullOrWhiteSpace(username))
-                throw new Exception("Token invalide.");
+            var username = User.Claims.FirstOrDefault(c => c.Type == ClaimTypes.Name)?.Value
+                           ?? User.Claims.FirstOrDefault(c => c.Type == JwtRegisteredClaimNames.UniqueName)?.Value;
 
-            return (Guid.Parse(idStr), username);
+            if (string.IsNullOrWhiteSpace(idStr))
+                throw new Exception("Token invalide (id manquant).");
+
+            return (Guid.Parse(idStr), username ?? "user");
         }
 
+        // ----------------- COMMANDES UTILISATEUR -----------------
 
-        // POST api/commandes -> crée une commande depuis le panier courant
+        // Passer commande depuis le panier
+        [HttpPost("from-panier")]
+        public async Task<ActionResult<CommandeDto>> CreerDepuisPanier()
+        {
+            try
+            {
+                var (userId, username) = GetUser();
+                var result = await _commandeService.CreerDepuisPanierAsync(userId, username, null);
+                return CreatedAtAction(nameof(GetById), new { id = result.Id }, result);
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Erreur création commande depuis panier");
+                return BadRequest(new { message = ex.Message });
+            }
+        }
+
+        // Créer une commande avec input direct
         [HttpPost]
         public async Task<ActionResult<CommandeDto>> Creer([FromBody] CommandeCreateDto input)
         {
@@ -46,11 +67,11 @@ namespace GestionProduit.API.Controllers
             catch (Exception ex)
             {
                 _logger.LogError(ex, "Erreur création commande");
-                return BadRequest(ex.Message);
+                return BadRequest(new { message = ex.Message });
             }
         }
 
-        // GET api/commandes/mes -> commandes de l'utilisateur connecté
+        // Récupérer les commandes de l'utilisateur connecté
         [HttpGet("mes")]
         public async Task<ActionResult<List<CommandeDto>>> MesCommandes()
         {
@@ -59,7 +80,7 @@ namespace GestionProduit.API.Controllers
             return Ok(data);
         }
 
-        // GET api/commandes/5 -> détails d'une commande
+        // Détails d'une commande
         [HttpGet("{id}")]
         public async Task<ActionResult<CommandeDto>> GetById(int id)
         {
@@ -69,7 +90,7 @@ namespace GestionProduit.API.Controllers
             return Ok(cmd);
         }
 
-        // POST api/commandes/5/annuler -> annuler une commande
+        // Annuler une commande
         [HttpPost("{id}/annuler")]
         public async Task<ActionResult> Annuler(int id)
         {
@@ -82,13 +103,12 @@ namespace GestionProduit.API.Controllers
             catch (Exception ex)
             {
                 _logger.LogError(ex, "Erreur annulation");
-                return BadRequest(ex.Message);
+                return BadRequest(new { message = ex.Message });
             }
         }
 
-        // ------ Admin ------
+        // ----------------- ADMIN -----------------
 
-        // PATCH api/commandes/5/statut?value=Expediee -> changer le statut
         [Authorize(Roles = "admin")]
         [HttpPatch("{id}/statut")]
         public async Task<ActionResult> ChangerStatut(int id, [FromQuery] string value)
@@ -97,7 +117,6 @@ namespace GestionProduit.API.Controllers
             return ok ? NoContent() : NotFound();
         }
 
-        // GET api/commandes/all -> toutes les commandes (Admin)
         [Authorize(Roles = "admin")]
         [HttpGet("all")]
         public async Task<ActionResult<List<CommandeDto>>> GetAllCommandes([FromQuery] string? statut = null)
