@@ -3,6 +3,7 @@ namespace GestionProduit.Application.DTOs
     public class CommandeCreateDto
     {
         public string AdresseLivraison { get; set; } = string.Empty;
+        public string NumeroTelephone { get; set; } = string.Empty; // ? Ajout du numéro de téléphone
         public string ModePaiement { get; set; } = "CashOnDelivery";
     }
 
@@ -24,8 +25,10 @@ namespace GestionProduit.Application.DTOs
 
         public DateTime DateCreation { get; set; }
         public string Statut { get; set; } = "EnAttente";
+
         public string ModePaiement { get; set; } = "CashOnDelivery";
         public string AdresseLivraison { get; set; } = string.Empty;
+        public string NumeroTelephone { get; set; } = string.Empty; // ? Ajout du numéro de téléphone
 
         public decimal Total { get; set; }
         public List<CommandeItemDto> Items { get; set; } = new();

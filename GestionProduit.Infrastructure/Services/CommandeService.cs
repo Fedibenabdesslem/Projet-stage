@@ -44,7 +44,8 @@ namespace GestionProduit.Infrastructure.Services
                     UserId = userId,
                     Username = username,
                     AdresseLivraison = input?.AdresseLivraison ?? "Adresse par défaut",
-                    ModePaiement = input?.ModePaiement ?? "à la livraison",
+                    Telephone = input?.NumeroTelephone ?? "Non renseigné", // ? ajout du numéro
+                    ModePaiement = input?.ModePaiement ?? "CashOnDelivery",
                     Statut = "EnAttente",
                     Total = total
                 };
@@ -78,7 +79,6 @@ namespace GestionProduit.Infrastructure.Services
                 throw;
             }
         }
-
 
         public async Task<List<CommandeDto>> GetMesCommandesAsync(Guid userId)
         {
@@ -153,7 +153,6 @@ namespace GestionProduit.Infrastructure.Services
             return true;
         }
 
-        // ----------------- Admin -----------------
         public async Task<List<CommandeDto>> GetAllCommandesAsync(string? statut = null)
         {
             var query = _context.Commandes
@@ -171,7 +170,6 @@ namespace GestionProduit.Infrastructure.Services
             return list.Select(MapToDto).ToList();
         }
 
-        // ----------------- Helpers -----------------
         private async Task<CommandeDto> BuildCommandeDtoAsync(int id, bool admin = false)
         {
             var cmd = await _context.Commandes
@@ -191,6 +189,7 @@ namespace GestionProduit.Infrastructure.Services
             Statut = c.Statut,
             ModePaiement = c.ModePaiement,
             AdresseLivraison = c.AdresseLivraison,
+            NumeroTelephone = c.Telephone, // ? mapping ajouté
             Total = c.Total,
             Items = c.Items.Select(i => new CommandeItemDto
             {

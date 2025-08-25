@@ -37,14 +37,14 @@ namespace GestionProduit.API.Controllers
 
         // ----------------- COMMANDES UTILISATEUR -----------------
 
-        // Passer commande depuis le panier
+        // ? Passer commande depuis le panier (avec téléphone, adresse, mode paiement)
         [HttpPost("from-panier")]
-        public async Task<ActionResult<CommandeDto>> CreerDepuisPanier()
+        public async Task<ActionResult<CommandeDto>> CreerDepuisPanier([FromBody] CommandeCreateDto input)
         {
             try
             {
                 var (userId, username) = GetUser();
-                var result = await _commandeService.CreerDepuisPanierAsync(userId, username, null);
+                var result = await _commandeService.CreerDepuisPanierAsync(userId, username, input);
                 return CreatedAtAction(nameof(GetById), new { id = result.Id }, result);
             }
             catch (Exception ex)
@@ -54,7 +54,7 @@ namespace GestionProduit.API.Controllers
             }
         }
 
-        // Créer une commande avec input direct
+        // ? Créer une commande classique (hors panier si besoin)
         [HttpPost]
         public async Task<ActionResult<CommandeDto>> Creer([FromBody] CommandeCreateDto input)
         {

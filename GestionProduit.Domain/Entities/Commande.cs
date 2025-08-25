@@ -25,6 +25,10 @@ namespace GestionProduit.Domain.Entities
         [MaxLength(200)]
         public string AdresseLivraison { get; set; } = string.Empty;
 
+        [MaxLength(20)]
+        [Phone]
+        public string Telephone { get; set; } = string.Empty;  // ? Ajout numéro de téléphone
+
         // Total calculé au moment de la création
         public decimal Total { get; set; }
 
@@ -32,6 +36,5 @@ namespace GestionProduit.Domain.Entities
         public ICollection<CommandeItem> Items { get; set; } = new List<CommandeItem>();
 
         public User? User { get; set; }
-
     }
 }
